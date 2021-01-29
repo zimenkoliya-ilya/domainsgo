@@ -1,0 +1,120 @@
+/*------------- #TYPOGRAPHY --------------*/
+
+
+h1, .h1 {
+  margin-bottom:  var(--h-margin-bottom);
+  font-weight: var(--h-font-weight);
+  color: var(--heading-color);
+  line-height: 1.15em;
+
+  @include responsive-font-size($h1-fontsize);
+
+  a {
+    color: inherit;
+  }
+}
+
+h2, .h2 {
+  margin-bottom:  var(--h-margin-bottom);
+  line-height: 1.3em;
+  font-weight: var(--h-font-weight);
+  color: var(--heading-color);
+
+  @include responsive-font-size($h2-fontsize);
+
+   a {
+    color: inherit;
+  }
+}
+
+h3, .h3 {
+  margin-bottom:  var(--h-margin-bottom);
+  line-height: 1.3em;
+  font-weight: var(--h-font-weight);
+  color: var(--heading-color);
+
+  @include responsive-font-size($h3-fontsize);
+
+  a {
+    color: inherit;
+  }
+}
+
+h4, .h4 {
+  margin-bottom:  var(--h-margin-bottom);
+  line-height: 1.3em;
+  font-weight: var(--h-font-weight);
+  color: var(--heading-color);
+
+  @include responsive-font-size($h4-fontsize);
+
+  a {
+    color: inherit;
+  }
+}
+
+h5, .h5 {
+  margin-bottom:  var(--h-margin-bottom);
+  line-height: 1.3em;
+  font-weight: var(--h-font-weight);
+  color: var(--heading-color);
+
+  @include responsive-font-size($h5-fontsize);
+
+  a {
+    color: inherit;
+  }
+}
+
+h6, .h6 {
+  margin-bottom:  var(--h-margin-bottom);
+  line-height: 1.3em;
+  font-weight: var(--h-font-weight);
+  color: var(--heading-color);
+
+  @include responsive-font-size($h6-fontsize);
+
+  a {
+    color: inherit;
+  }
+}
+
+/*------------- #Styles for Text Selection --------------*/
+
+/*Selection dark*/
+
+.selection--grey-light::-moz-selection{background: var(--grey-light-themes);}
+.selection--grey-light::selection{background: var(--grey-light-themes);}
+
+/*Selection primary*/
+
+.selection--primary::-moz-selection{background: var(--primary-accent-color); color: var(--white-color);}
+.selection--primary::selection{background: var(--primary-accent-color); color: var(--white-color);}
+
+dl {
+  margin-bottom: 24px;
+}
+
+dl dt {
+  margin-bottom: 5px;
+  color: #777;
+  font-weight: bold;
+}
+
+dl dd {
+  margin-bottom: 5px;
+  margin-left: 20px;
+}
+
+abbr {
+  cursor: help;
+  border-color: $body-font-color;
+}
+
+hr {
+  position: relative;
+  display: block;
+  width: 100%;
+  min-height: 10px;
+  margin: 0 auto;
+}

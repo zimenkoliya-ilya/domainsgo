@@ -1,0 +1,51 @@
+/*------------- #QUOTES --------------*/
+
+
+blockquote {
+  margin: 2em 0;
+  padding: 20px 60px;
+  position: relative;
+  overflow: hidden;
+
+  h6 {
+	font-style: normal;
+	font-size: 16px;
+
+	span {
+	  color: var(--light-grey);
+	  display: block;
+	  font-weight: 700;
+	  font-size: 14px;
+	}
+  }
+
+  p {
+	margin: 0 0 30px;
+	font-size: 16px;
+	position: relative;
+	font-weight: 700;
+	text-transform: uppercase;
+
+	&:before {
+	  position: relative;
+	  display: block;
+	  z-index: 1;
+	  margin-bottom: 30px;
+	}
+  }
+}
+
+blockquote p:before {
+  content: url("../img/theme-content/images/quote.png");
+}
+
+
+/*================= Responsive Mode ============*/
+
+
+@media (max-width: 768px) {
+  blockquote {
+	margin: 1em 0;
+	padding: 10px 30px;
+  }
+}

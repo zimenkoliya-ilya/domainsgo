@@ -1,0 +1,276 @@
+/*------------- #BLOGS --------------*/
+
+
+.post {
+  position: relative;
+  transition: all .3s ease;
+  border-radius: 5px;
+  border: 1px solid #dfe6ec;
+  background-color: var(--white-color);
+  height: 100%;
+
+  &:hover {
+	box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.1);
+  }
+}
+
+.post-content {
+  position: relative;
+  z-index: 1;
+  padding: 30px;
+}
+
+.post-thumb {
+  position: relative;
+  overflow: hidden;
+  border-radius: 5px 5px 0 0;
+
+  img {
+	display: block;
+	margin: 0 auto;
+  }
+
+  iframe {
+	width: 100%;
+  }
+}
+
+.post-title {
+  display: block;
+  font-size: 16px;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+}
+
+.post-category {
+  font-size: 14px;
+  font-weight: 500;
+  color: var(--primary-accent-color);
+  display: inline-block;
+  opacity: .75;
+
+  &:hover {
+	opacity: 1;
+  }
+}
+
+.post-category-wrap {
+  margin-bottom: 20px;
+}
+
+.post-text {
+  font-size: 14px;
+  margin-bottom: 20px;
+}
+
+.author-posted {
+  font-size: 14px;
+  font-weight: 500;
+  color: var(--light-grey);
+
+  .author {
+	color: var(--dark-themes);
+
+	&:hover {
+	  color: var(--primary-accent-color);
+	}
+  }
+}
+
+.post-date,
+.post-comments {
+  font-weight: 500;
+  color: var(--light-grey);
+  display: inline-flex;
+  align-items: center;
+
+  .crumina-icon {
+	margin-right: 10px;
+	width: 14px;
+	height: 14px;
+	fill: var(--border-grey-color);
+  }
+}
+
+.post-date + .post-comments {
+  margin-left: 35px;
+}
+
+.author-block {
+  display: inline-flex;
+  align-items: center;
+  font-weight: 700;
+  text-align: left;
+
+  .avatar {
+	margin-right: 30px;
+  }
+
+  .description {
+	font-size: 14px;
+  }
+
+  .author-name {
+	font-size: 18px;
+  }
+}
+
+/*------------- #ADVERTISING POST --------------*/
+
+.post.advertising {
+  text-align: center;
+  background-color: #f1f6fb;
+  padding: 30px;
+
+  .post-thumb {
+	border-radius: 0;
+	margin-bottom: 30px;
+  }
+
+  .post-title {
+	font-size: 24px;
+	text-transform: none;
+	margin-bottom: 20px;
+  }
+
+  .post-content {
+	padding: 0;
+  }
+
+  .post-category-wrap {
+	margin-bottom: 40px;
+  }
+
+  .post-category {
+	font-size: 12px;
+	color: var(--light-grey);
+	text-transform: uppercase;
+  }
+}
+
+
+/*------------- #QUOTE POST --------------*/
+
+.post.quote {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border-left: 8px solid var(--primary-accent-color);
+
+  .post-content {
+	padding: 0;
+  }
+}
+
+/*------------- #VIDEO POST --------------*/
+
+
+.post.video {
+
+  .video-control {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+  }
+}
+
+
+/*------------- #Slider POST --------------*/
+
+.post.slider {
+
+  .pagination-bottom-center {
+	padding-bottom: 0;
+
+	.swiper-pagination {
+	  bottom: 15px;
+	}
+  }
+}
+
+/*------------- #Link POST --------------*/
+
+.post.link {
+  text-align: center;
+  background-color: #f1f6fb;
+  display: flex;
+
+  .post-content {
+	margin: auto;
+  }
+
+  .link-image {
+	width: min-content;
+	margin: 0 auto 30px;
+  }
+
+  .site-link {
+	display: inline-block;
+	color: var(--primary-accent-color);
+	font-size: 16px;
+	font-weight: 700;
+  }
+}
+
+
+/*------------- #POST Standard Details --------------*/
+
+.post-standard-details {
+  border-radius: 0;
+  border: none;
+  height: auto;
+
+  &:hover {
+	box-shadow: none;
+  }
+
+  .post-additional-info {
+	margin-bottom: 30px;
+  }
+
+  .pagination-bottom-center {
+	padding-bottom: 40px;
+  }
+
+  .crumina-module-slider {
+	text-align: center;
+
+	.wp-caption {
+	  display: inline-block;
+	  margin: 0;
+	}
+  }
+
+  .navigation-center-both-sides .swiper-btn-next {
+	right: 0;
+  }
+
+  .navigation-center-both-sides .swiper-btn-prev {
+	left: 0;
+  }
+}
+
+
+
+/*================= Responsive Mode ============*/
+
+
+@media (max-width: 768px) {
+  .post-date,
+  .post-comments {
+	font-size: 12px;
+  }
+}
+
+@media (max-width: 460px) {
+  .post-date,
+  .post-comments {
+	display: flex;
+  }
+
+  .post-date + .post-comments {
+	margin-left: 0;
+	margin-top: 10px;
+  }
+}

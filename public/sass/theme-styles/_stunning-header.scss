@@ -1,0 +1,35 @@
+/*------------- #STUNNING-HEADER --------------*/
+
+
+.crumina-stunning-header {
+  position: relative;
+  background-size: cover;
+  padding-top: 120px;
+}
+
+.page-title {
+  margin: 25px 0;
+}
+
+.page-category {
+  color: var(--white-color);
+}
+
+.page-category-item {
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.page-text {
+  font-weight: 500;
+  font-size: 18px;
+}
+
+
+/*================= Responsive Mode ============*/
+
+@media (max-width: 991px) {
+  .crumina-stunning-header {
+    padding-top: 80px;
+  }
+}

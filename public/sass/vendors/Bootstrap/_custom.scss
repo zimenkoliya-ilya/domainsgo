@@ -1,0 +1,26 @@
+// Grid columns
+//
+// Set the number of columns and specify the width of the gutters.
+
+$grid-gutter-width:           30px;
+
+
+$container-max-widths: ();
+// stylelint-disable-next-line scss/dollar-variable-default
+$container-max-widths: map-merge(
+		(
+			sm: 600px,
+			md: 780px,
+			lg: 1020px,
+			xl: 1200px
+		),
+		$container-max-widths
+);
+
+
+
+// Tooltips
+
+$tooltip-padding-y:                 1rem;
+$tooltip-padding-x:                 1rem;
+$tooltip-max-width:                 270px;

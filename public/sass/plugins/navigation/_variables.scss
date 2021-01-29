@@ -1,0 +1,212 @@
+// GENERAL
+// ================================================
+
+// Screen size for media queries on landscape view
+$landscape-width: 992px;
+
+
+// COLOR PALETTE
+// ================================================
+$white:    		#ffffff !default;
+
+$gray-01: 		#848484 !default; // more light
+$gray-02:		#707070 !default;
+$gray-03:		#5b5b5b !default; 
+$gray-04:		#474747 !default;
+$gray-05:		#333333 !default; // more dark
+
+
+
+// MAIN COLORS
+// ================================================
+$background-color: $gray-05;
+$font-color: #fff;
+$border-color: lighten($background-color, 5%);
+$submenu-background-color: #fff;
+
+
+// NAVIGATION
+// ================================================
+$navigation-height: 1;
+$navigation-background-color: $background-color;
+$navigation-font-family: inherit;
+
+// NAVIGATION BODY (Offcanvas panel)
+// ================================================
+$navigation-offcanvas-width: 100%;
+$navigation-offcanvas-medium-large-breakpoint: 500px;
+$navigation-offcanvas-medium-large-width: 320px;
+$navigation-body-background-color: $background-color;
+
+
+// NAVIGATION BODY HEADER
+// ================================================
+$navigation-body-header-padding: 16px;
+$navigation-body-header-border: $border-color;
+
+
+// NAVIGATION BODY CLOSE BUTTON
+// ================================================
+$navigation-body-close-button-color: $font-color;
+$navigation-body-close-button-font-size: 25px;
+$navigation-body-close-button-background-color: $gray-01;
+
+
+// NAVIGATION BODY SECTION
+// ================================================
+$navigation-body-section-padding: 16px;
+
+
+// BRAND TEXT
+// ================================================
+$navigation-brand-color: $font-color;
+$navigation-brand-font-size: 16px;
+$navigation-brand-font-size-landscape: 22px;
+$navigation-brand-font-weight: bold;
+
+
+// LOGO
+// ================================================
+$navigation-logo-height: 40px;
+$navigation-logo-height-landscape: 42px;
+
+
+// NAVIGATION TOGGLER BUTTON
+// ================================================
+$button-toggler-width: 60px;
+$button-toggler-height: 60px;
+$button-toggler-icon-color: $font-color;
+
+
+// NAVIGATION LINK
+// ================================================
+$navigation-link-font-color: $font-color;
+$navigation-link-font-size: 14px;
+$navigation-link-padding: 13px 16px;
+$navigation-link-padding-landscape: 23px 13px;
+$navigation-link-letter-spacing: 0.3px;
+$navigation-link-border-color: $border-color;
+
+
+// Navigation link with text and icons
+$navigation-link-text-icon-width: 28px;
+$navigation-link-text-icon-font-size: 24px;
+$navigation-link-text-icon-font-awesome-size: 21px;
+
+// Navigation link icon item
+$navigation-link-icon-item-padding: 13px 16px;
+$navigation-link-icon-item-padding-landscape: 25px 25.6px;
+$navigation-link-icon-item-icon-width: 20px;
+$navigation-link-icon-item-icon-height: 26px;
+$navigation-link-icon-item-font-size: 25.6px;
+$navigation-link-icon-item-font-awesome-size: 21px;
+
+// Navigation link avatar
+$navigation-link-avatar-font-size: 12px;
+$navigation-link-avatar-font-weight: bold;
+$navigation-link-avatar-image-width: 48px;
+$navigation-link-avatar-border-radius: 50%;
+
+
+// SOCIAL LINKS
+// ================================================
+$navigation-social-menu-padding: 0 16px;
+$navigation-social-menu-link-padding: 0 5px;
+$navigation-social-menu-icon-width: 38px;
+$navigation-social-menu-icon-height: 38px;
+$navigation-social-menu-icon-size: 19px;
+$navigation-social-menu-icon-border-radius: 50%;
+$navigation-social-menu-icon-background-color: lighten($background-color, 5%);
+
+
+// SUBMENU INDICATORS
+// ================================================
+$submenu-indicator-width: 46px;
+$submenu-indicator-width-landscape: 6px;
+$submenu-indicator-height-landscape: 6px;
+$submenu-indicator-width-after: 6px;
+$submenu-indicator-height-after: 6px;
+$submenu-indicator-margin-after: -3px 0 0 -3px;
+$submenu-indicator-border-width-after: 1px;
+$submenu-indicator-color: $font-color;
+
+
+// NAVIGATION BUTTON
+// ================================================
+$navigation-button-padding: 10px 12px;
+$navigation-button-font-size: 14px;
+$navigation-button-font-color-hover: $white;
+$navigation-button-border-radius: 4px;
+
+
+// NAVIGATION TEXT
+// ================================================
+$navigation-text-padding: 11px 0;
+$navigation-text-padding-landscape: 11px 16px;
+$navigation-text-font-size: 14px;
+
+
+// BADGE
+// ================================================
+$navigation-badge-min-width: 18px !important;
+$navigation-badge-height: 18px;
+$navigation-badge-font-size: 11px;
+$navigation-badge-color: $white;
+$navigation-badge-border-radius: 20px;
+
+
+// INPUT
+// ================================================
+$navigation-input-padding: 11px 32px 11px 12px;
+$navigation-input-font-size: 14px;
+$navigation-input-font-color: $font-color;
+$navigation-input-border-color: $border-color;
+$navigation-input-background-color: lighten($gray-05, 3%);
+$navigation-input-border-radius: 4px;
+
+
+// SEARCH ICON
+// ================================================
+$navigation-search-icon-color: lighten($font-color, 30%);
+
+
+// DROPDOWN
+// ================================================
+$dropdown-width: 230px;
+$dropdown-max-height: 2500px;
+$dropdown-background-color: $submenu-background-color;
+$dropdown-border-color: $border-color;
+$dropdown-box-shadow-landscape: 0 10px 40px 0 rgba(0, 0, 0, 0.4);
+$dropdown-link-border-color: $border-color;
+$dropdown-link-font-color: var(--link-color);
+$dropdown-link-font-size: 16px;
+$dropdown-link-padding: 10px 30px;
+$dropdown-link-padding-landscape: 19px !important;
+
+// Dropdown levels
+$dropdown-link-padding-level-2: 32px;
+$dropdown-link-padding-level-3: 48px;
+$dropdown-link-padding-level-4: 48px; 
+$dropdown-link-padding-level-5: 64px;
+$dropdown-link-padding-level-6: 128px;
+
+
+// MEGAMENU
+// ================================================
+$megamenu-max-height: 2500px;
+$megamenu-font-size: 14px;
+$megamenu-font-color: $font-color;
+$megamenu-background-color: $submenu-background-color;
+$megamenu-border-color: $border-color;
+$megamenu-box-shadow-landscape: 0 10px 40px 0 rgba(0, 0, 0, 0.4);
+
+
+// LISTS
+// ================================================
+$navigation-list-margin: 8px 0 0;
+$navigation-list-padding: 0 20px 0 0;
+$navigation-list-border-color: $border-color;
+$navigation-list-link-padding: 9px 10px 9px 30px;
+$navigation-list-link-font-size: 16px;
+$navigation-list-heading-padding: 0 16px 13px;
+$navigation-list-heading-color: $font-color;

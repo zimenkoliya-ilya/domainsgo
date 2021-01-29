@@ -1,0 +1,10 @@
+/*------------- #W-ABOUT --------------*/
+
+
+.w-about {
+  &.widget-sidebar {
+	padding: 30px;
+	border-radius: 5px;
+	border: 1px solid var(--border-grey-color);
+  }
+}

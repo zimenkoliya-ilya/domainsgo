@@ -1,0 +1,16 @@
+/*------------- #W-SOCIALS --------------*/
+
+
+.w-socials {
+  text-align: center;
+
+  .socials {
+	margin: 0;
+  }
+
+  &.widget-sidebar {
+	padding: 30px;
+	border-radius: 5px;
+	border: 1px solid var(--border-grey-color);
+  }
+}

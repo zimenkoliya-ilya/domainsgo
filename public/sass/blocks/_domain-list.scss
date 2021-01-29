@@ -1,0 +1,39 @@
+/*------------- #DOMAIN-LIST --------------*/
+
+
+.domain-list {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.domain-list-item {
+  margin-right: 20px;
+  display: flex;
+  align-items: baseline;
+
+  &:last-child {
+	margin-right: 0;
+  }
+}
+
+.domain-list-item-name {
+  font-size: 24px;
+  font-weight: 900;
+}
+
+.domain-list-item-price {
+  font-size: 16px;
+  font-weight: 500;
+  margin-left: 20px;
+}
+
+
+/*------------- Responsive Mode --------------*/
+
+
+@media (max-width: 768px) {
+  .domain-list {
+    justify-content: center;
+  }
+}

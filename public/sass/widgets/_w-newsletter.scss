@@ -1,0 +1,14 @@
+/*------------- #W-NEWSLETTER --------------*/
+
+
+.w-newsletter {
+  padding: 30px;
+  border-radius: 5px;
+  background-color: var(--yellow-themes);
+
+  &.widget-sidebar {
+	.widget-title {
+	  border-bottom: 1px solid var(--dark-themes);
+	}
+  }
+}

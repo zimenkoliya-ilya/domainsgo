@@ -1,0 +1,64 @@
+/*------------- #SOCIALS --------------*/
+
+.socials {
+  margin: 10px 0;
+  padding-left: 0;
+  display: inline-flex;
+  align-items: center;
+  flex-wrap: wrap;
+  list-style: none;
+
+  .title {
+	margin-bottom: 0;
+  }
+
+  li {
+	margin: 5px 20px 5px 0;
+
+	&:last-child {
+	  margin-right: 0;
+	}
+
+	&:hover .crumina-icon {
+	  opacity: .7;
+	}
+  }
+
+  .crumina-icon {
+	width: 21px;
+	font-size: 21px;
+	display: block;
+	position: relative;
+	z-index: 2;
+  }
+}
+
+.socials--grey {
+  li {
+
+	&:hover .crumina-icon {
+	  opacity: 1;
+	  fill: var(--primary-accent-color);
+	}
+  }
+
+  .crumina-icon {
+
+	fill: var(--light-grey);
+  }
+}
+
+.socials--rounded {
+  li {
+	margin: 5px 10px 5px 0;
+
+	&:last-child {
+	  margin-right: 0;
+	}
+  }
+
+  .crumina-icon {
+	width: 30px;
+	font-size: 30px;
+  }
+}

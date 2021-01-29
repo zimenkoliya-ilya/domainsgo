@@ -1,0 +1,123 @@
+/*------------- #NAVIGATION-USER-MENU --------------*/
+
+
+
+.user-menu {
+  text-align: center;
+}
+
+.user-menu-popup {
+
+  &.modal {
+	z-index: 999999;
+	padding-right: 0 !important;
+  }
+
+  .modal-dialog {
+	max-width: unset;
+	width: 100%;
+	margin: 0;
+  }
+
+  .modal-content {
+	background-color: #161718;
+	border-radius: 0;
+	border: none;
+
+	&:after {
+	  content: '';
+	  display: block;
+	  width: 100%;
+	  height: 4px;
+	  background-repeat: repeat-x;
+	  -webkit-background-size: contain;
+	  background-size: contain;
+	  position: absolute;
+	  bottom: 0;
+	  left: 0;
+	}
+  }
+
+  .modal-close-btn-wrapper {
+	float: right;
+	position: relative;
+	cursor: pointer;
+
+	&:hover {
+	  .crumina-icon {
+		fill: var(--primary-accent-color);
+	  }
+	}
+
+	.close {
+	  margin: 0;
+	  position: relative;
+	  z-index: 99;
+	}
+
+	.crumina-icon {
+	  width: 18px;
+	  height: 18px;
+	  fill: #424648;
+	  position: absolute;
+	  top: 50%;
+	  left: 50%;
+	  transform: translate(-50%, -50%);
+	  z-index: 1;
+	}
+  }
+
+  .modal-header {
+	border-bottom: 0;
+	padding-top: 50px;
+  }
+
+  .modal-body {
+	padding-top: 50px;
+	padding-bottom: 120px;
+  }
+
+  .site-logo {
+	margin-bottom: 30px;
+	display: block;
+  }
+
+  .sign-in-form {
+	margin-top: 50px;
+	margin-bottom: 30px;
+  }
+
+  .socials {
+	margin-bottom: 30px;
+  }
+}
+
+.user-menu-popup .modal-content:after {
+  background-image: url("../img/theme-content/backgrounds/header-footer-gradient-bg.png");
+}
+
+/*------------- Responsive Mode --------------*/
+
+@media (max-width: 768px) {
+  .user-menu-popup .modal-header {
+	padding-top: 20px;
+  }
+
+  .user-menu-popup .modal-body {
+	padding-top: 20px;
+	padding-bottom: 20px;
+  }
+
+  .user-menu-popup .site-logo {
+	margin-bottom: 15px;
+  }
+
+  .user-menu-popup .sign-in-form {
+	margin-top: 20px;
+	margin-bottom: 15px;
+  }
+
+  .user-menu-popup .socials {
+	margin-bottom: 20px;
+  }
+}

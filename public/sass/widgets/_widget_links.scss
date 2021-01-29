@@ -1,0 +1,70 @@
+/*------------- #W-LINKS --------------*/
+
+.widget_links {
+  ul {
+	padding-left: 0;
+	list-style: none;
+	margin-bottom: 0;
+
+	li {
+	  margin-bottom: 15px;
+
+	  &:last-child {
+		margin-bottom: 0;
+	  }
+
+	  .crumina-icon {
+		width: 4px;
+		height: 6px;
+		fill: inherit;
+		margin-left: 10px;
+	  }
+
+	  a {
+		position: relative;
+
+		&:hover {
+		  color: var(--primary-accent-color);
+		  fill: var(--primary-accent-color);
+
+		  .crumina-icon {
+			transform: translateX(2px);
+		  }
+		}
+	  }
+	}
+  }
+
+  &.widget-sidebar {
+	padding: 30px;
+	border-radius: 5px;
+	border: 1px solid var(--border-grey-color);
+
+	ul li a {
+	  font-weight: 500;
+	}
+  }
+}
+
+
+/*------------- Responsive Mode --------------*/
+
+
+@media (max-width: 768px) {
+  .widget_links.widget-sidebar {
+	padding: 20px;
+  }
+
+  .widget_links ul li {
+	margin-bottom: 5px;
+  }
+
+  .widget_links.widget-sidebar .widget-title {
+	margin-bottom: 20px;
+  }
+
+  .row-masonry--col-2 {
+	-webkit-column-count: 1;
+	column-count: 1;
+  }
+}

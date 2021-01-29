@@ -1,0 +1,70 @@
+/*------------- #ROOT --------------*/
+
+
+:root {
+  //Font Family
+  --font-family-body: #{inspect($body-font-family)};
+
+
+  --body-font-size: #{inspect($body-font-size)};
+  --body-font-weight: #{inspect($body-font-weight)};
+  --base-line-height: #{inspect($base-line-height)};
+  --body-letter-spacing: #{inspect($body-letter-spacing)};
+
+  //Colors
+  --primary-accent-color: #{inspect($primary-accent-color)};
+  --body-font-color: #{inspect($body-font-color)};
+  --white-color: #{inspect($white-color)};
+  --border-grey-color: #{inspect($border-grey-color)};
+  --heading-color: #{inspect($heading-color)};
+  --icon-color: #{inspect($icon-color)};
+  --grey-themes: #{inspect($grey-themes)};
+  --red-themes: #{inspect($red-themes)};
+  --dark-themes: #{inspect($dark-themes)};
+  --blue-themes: #{inspect($blue-themes)};
+  --yellow-themes: #{inspect($yellow-themes)};
+  --orange-themes: #{inspect($orange-themes)};
+  --green-themes: #{inspect($green-themes)};
+  --lime-themes: #{inspect($lime-themes)};
+  --grey-light-themes: #{inspect($grey-light-themes)};
+  --light-grey: #{inspect($light-grey)};
+
+  //Darken themes colors
+
+  --primary-accent-color--darken: #{inspect($primary-accent-color--darken)};
+
+  --white-color--darken: #{inspect($white-color--darken)};
+
+  --grey-themes--darken: #{inspect($grey-themes--darken)};
+  --red-themes--darken: #{inspect($red-themes--darken)};
+  --dark-themes--darken: #{inspect($dark-themes--darken)};
+  --blue-themes--darken: #{inspect($blue-themes--darken)};
+  --yellow-themes--darken: #{inspect($yellow-themes--darken)};
+  --orange-themes--darken: #{inspect($orange-themes--darken)};
+  --green-themes--darken: #{inspect($green-themes--darken)};
+  --lime-themes--darken: #{inspect($lime-themes--darken)};
+  --grey-light-themes--darken: #{inspect($grey-light-themes--darken)};
+
+  --link-color: #{inspect($link-color)};
+  --footer-link-color: #{inspect($footer-link-color)};
+  --footer-text-color: #{inspect($footer-text-color)};
+
+
+  //Heading Font-size
+  --h1-font-size: #{inspect($h1-fontsize)};
+  --h2-font-size: #{inspect($h2-fontsize)};
+  --h3-font-size: #{inspect($h3-fontsize)};
+  --h4-font-size: #{inspect($h4-fontsize)};
+  --h5-font-size: #{inspect($h5-fontsize)};
+  --h6-font-size: #{inspect($h6-fontsize)};
+
+  --h-margin-bottom: #{inspect($h-margin-bottom)};
+  --h-font-weight: #{inspect($h-font-weight)};
+
+  //Forms
+
+  --placeholder-color: #{inspect($placeholder-color)};
+  --input-dark-bg: #{inspect($input-dark-bg)};
+  --input-grey-bg: #{inspect($input-grey-bg)};
+
+}

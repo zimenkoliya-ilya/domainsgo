@@ -1,0 +1,41 @@
+/*------------- #CLIENTS --------------*/
+
+
+.client-items-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.clients-item {
+  margin-right: 30px;
+  filter: grayscale(1);
+  opacity: .4;
+  transition: all .3s ease;
+
+  &:hover {
+	filter: grayscale(0);
+	opacity: 1;
+  }
+
+  &:last-child {
+	margin-right: 0;
+  }
+}
+
+/*------------- Responsive Mode --------------*/
+
+
+@media (max-width: 768px) {
+  .client-items-wrapper {
+	flex-wrap: wrap;
+	justify-content: space-between;
+  }
+
+  .clients-item {
+	margin-bottom: 20px;
+	margin-right: 0;
+	width: 48%;
+	text-align: center;
+  }
+}

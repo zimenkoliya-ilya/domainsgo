@@ -1,0 +1,832 @@
+/*------------- #BUTTONS --------------*/
+
+
+.crumina-button {
+  cursor: pointer;
+  text-decoration: none;
+  display: inline-block;
+  border-radius: 50px;
+  padding: 5px 10px;
+  position: relative;
+  transition: all .3s ease;
+  text-align: center;
+  line-height: 1;
+  font-weight: 700;
+  color: var(--white-color);
+  outline: none;
+  border: 3px solid;
+
+  &:after {
+    content: '';
+    display: block;
+    border-radius: 50px;
+    position: absolute;
+    top: -3px;
+    left: -3px;
+    width: calc(100% + 6px);
+    height: calc(100% + 6px);
+    box-shadow: inset 0 3px 0 0 rgba(33, 35, 43, 0.3);
+    opacity: 0;
+    transition: all .3s ease;
+  }
+
+  & + .btn {
+	margin-left: 30px;
+  }
+
+  &:hover {
+    outline: none;
+    text-decoration: none;
+  }
+
+  &:focus {
+    outline: none;
+  }
+
+  &:active {
+    outline: none;
+
+    &:after {
+      opacity: 1;
+    }
+  }
+
+  &:disabled {
+    background-color: var(--grey-themes) !important;
+    color: var(--grey-themes) !important;
+    border-color: var(--grey-themes) !important;
+    cursor: not-allowed;
+  }
+}
+
+.button--xs {
+  font-size: 12px;
+  padding: .375rem .881rem;
+}
+
+.button--s {
+  font-size: 14px;
+  padding: .625rem 1.431rem;
+}
+
+.button--m {
+  font-size: 14px;
+  padding: .938rem 2.187rem;
+}
+
+.button--l {
+  font-size: 14px;
+  padding: 1.094rem 2.607rem;
+}
+
+.button--xl {
+  font-size: 14px;
+  padding: 1.25rem 2.908rem;
+}
+
+.button--xxl {
+  font-size: 16px;
+  padding: 1.5rem 4.3rem;
+}
+
+.button--uppercase {
+  text-transform: uppercase;
+}
+
+.button--with-icon {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+
+  .crumina-icon,
+  i {
+    font-size: 19px;
+    transition: all .3s ease;
+    position: relative;
+  }
+}
+
+.button--icon-left {
+  .crumina-icon,
+  i {
+    margin-right: 10px;
+  }
+}
+
+.button--icon-right {
+  .crumina-icon,
+  i {
+    margin-left: 10px;
+  }
+}
+
+.button--icon-round {
+  padding: 17px 35px;
+  font-size: 15px;
+
+  .crumina-icon,
+  i {
+    width: 21px;
+    height: 21px;
+    font-size: 21px;
+  }
+
+  &.button--icon-right {
+    padding-right: 70px;
+
+    .button-icon-wrapper {
+      position: absolute;
+      right: -3px;
+      top: -3px;
+    }
+  }
+
+  &.button--icon-left {
+    padding-left: 70px;
+
+    .button-icon-wrapper {
+      position: absolute;
+      left: -3px;
+      top: -3px;
+    }
+  }
+}
+
+.button-icon-wrapper {
+  width: 55px;
+  height: 55px;
+  display: flex;
+  background-color: rgba(0,0,0,.1);
+  border-radius: 100%;
+
+  .crumina-icon,
+  i {
+    margin: auto;
+  }
+}
+
+.button--icon--subscribe {
+  padding: 15px 23px;
+
+  .crumina-icon,
+  i {
+    width: 19px;
+    height: 19px;
+  }
+}
+
+
+
+/*------------- #Color-scheme for buttons --------------*/
+
+
+.button--dark {
+  background-color: var(--dark-themes);
+  border-color: var(--dark-themes);
+  color: var(--white-color);
+
+  &:hover {
+    background-color: var(--dark-themes--darken);
+    border-color: var(--dark-themes--darken);
+    color: var(--white-color);
+  }
+
+  .crumina-icon,
+  i {
+    color: var(--white-color);
+    fill: var(--white-color);
+  }
+
+  &.button--bordered {
+    color: var(--dark-themes);
+
+	.crumina-icon,
+	i {
+	  color: var(--dark-themes);
+      fill: var(--dark-themes);
+	}
+
+    &:hover {
+      color: var(--primary-accent-color);
+      border-color: var(--primary-accent-color);
+      background-color: transparent;
+
+	  .crumina-icon,
+	  i {
+		color: var(--primary-accent-color);
+        fill: var(--primary-accent-color);
+	  }
+    }
+
+    &:active {
+      color: var(--white-color);
+      border-color: var(--primary-accent-color--darken);
+      background-color: var(--primary-accent-color--darken);
+
+	  .crumina-icon,
+	  i {
+		color: var(--white-color);
+        fill: var(--white-color);
+	  }
+    }
+  }
+}
+
+.button--white {
+  background-color: var(--white-color);
+  border-color: var(--white-color);
+  color: var(--dark-themes);
+
+  .crumina-icon,
+  i {
+    color: var(--dark-themes);
+    fill: var(--dark-themes);
+  }
+
+  &:hover {
+    background-color: var(--white-color--darken);
+    border-color:var(--white-color--darken);
+    color: var(--dark-themes);
+  }
+
+  &.button--bordered {
+    color: var(--white-color);
+
+    &:hover {
+      color: var(--primary-accent-color);
+      border-color: var(--primary-accent-color);
+      background-color: transparent;
+
+      .crumina-icon,
+      i {
+        color: var(--primary-accent-color);
+        fill: var(--primary-accent-color);
+      }
+    }
+
+    &:active {
+      color: var(--white-color);
+      border-color: var(--primary-accent-color--darken);
+      background-color: var(--primary-accent-color--darken);
+
+      .crumina-icon,
+      i {
+        color: var(--white-color);
+        fill: var(--white-color);
+      }
+    }
+  }
+}
+
+.button--yellow {
+  background-color: var(--yellow-themes);
+  border-color: var(--yellow-themes);
+  color: var(--dark-themes);
+
+  &:hover {
+    background-color: var(--yellow-themes--darken);
+    border-color: var(--yellow-themes--darken);
+    color: var(--dark-themes);
+  }
+
+  .crumina-icon,
+  i {
+    color: var(--dark-themes);
+    fill: var(--dark-themes);
+  }
+
+  &.button--bordered {
+    color: var(--yellow-themes);
+
+    .crumina-icon,
+    i {
+      color: var(--yellow-themes);
+      fill: var(--yellow-themes);
+    }
+
+    &:hover {
+      border-color: var(--primary-accent-color);
+      background-color: transparent;
+      color: var(--primary-accent-color);
+
+      .crumina-icon,
+      i {
+        color: var(--primary-accent-color);
+        fill: var(--primary-accent-color);
+      }
+    }
+
+    &:active {
+      color: var(--white-color);
+      border-color: var(--primary-accent-color--darken);
+      background-color: var(--primary-accent-color--darken);
+
+      .crumina-icon,
+      i {
+        color: var(--white-color);
+        fill: var(--white-color);
+      }
+    }
+  }
+}
+
+.button--green {
+  background-color: var(--green-themes);
+  border-color: var(--green-themes);
+  color: var(--white-color);
+
+  &:hover {
+    background-color: var(--green-themes--darken);
+    border-color: var(--green-themes--darken);
+    color: var(--white-color);
+  }
+
+  .crumina-icon,
+  i {
+    color: var(--white-color);
+    fill: var(--white-color);
+  }
+
+  &.button--bordered {
+    color: var(--green-themes);
+
+    .crumina-icon,
+    i {
+      color: var(--green-themes);
+      fill: var(--green-themes);
+    }
+
+    &:hover {
+      color: var(--primary-accent-color);
+      background-color: transparent;
+      border-color: var(--primary-accent-color);
+
+      .crumina-icon,
+      i {
+        color: var(--primary-accent-color);
+        fill: var(--primary-accent-color);
+      }
+    }
+
+    &:active {
+      color: var(--white-color);
+      border-color: var(--primary-accent-color--darken);
+      background-color: var(--primary-accent-color--darken);
+
+      .crumina-icon,
+      i {
+        color: var(--white-color);
+        fill: var(--white-color);
+      }
+    }
+  }
+}
+
+.button--grey {
+  background-color: var(--grey-themes);
+  border-color: var(--grey-themes);
+  color: var(--dark-themes);
+
+  .crumina-icon,
+  i {
+    color: var(--dark-themes);
+    fill: var(--dark-themes);
+  }
+
+  &:hover {
+    background-color: var(--grey-themes--darken);
+    border-color: var(--grey-themes--darken);
+    color: var(--dark-themes);
+  }
+
+  &.button--bordered {
+    color: var(--grey-themes);
+
+    .crumina-icon,
+    i {
+      color: var(--grey-themes);
+      fill: var(--grey-themes);
+    }
+
+    &:hover {
+      color: var(--primary-accent-color);
+      background-color: transparent;
+      border-color: var(--primary-accent-color);
+
+      .crumina-icon,
+      i {
+        color: var(--primary-accent-color);
+        fill: var(--primary-accent-color);
+      }
+    }
+
+    &:active {
+      color: var(--white-color);
+      border-color: var(--primary-accent-color--darken);
+      background-color: var(--primary-accent-color--darken);
+
+      .crumina-icon,
+      i {
+        color: var(--white-color);
+        fill: var(--white-color);
+      }
+    }
+  }
+}
+
+.button--red {
+  background-color: var(--red-themes);
+  border-color: var(--red-themes);
+  color: var(--white-color);
+
+  .crumina-icon,
+  i {
+    color: var(--white-color);
+    fill: var(--white-color);
+  }
+
+  &:hover {
+    background-color: var(--red-themes--darken);
+    border-color: var(--red-themes--darken);
+    color: var(--white-color);
+  }
+
+  &.button--bordered {
+    color: var(--red-themes);
+
+    .crumina-icon,
+    i {
+      color: var(--red-themes);
+      fill: var(--red-themes);
+    }
+
+    &:hover {
+      color: var(--primary-accent-color);
+      background-color: transparent;
+      border-color: var(--primary-accent-color);
+
+      .crumina-icon,
+      i {
+        color: var(--primary-accent-color);
+        fill: var(--primary-accent-color);
+      }
+    }
+
+    &:active {
+      color: var(--white-color);
+      border-color: var(--primary-accent-color--darken);
+      background-color: var(--primary-accent-color--darken);
+
+      .crumina-icon,
+      i {
+        color: var(--white-color);
+        fill: var(--white-color);
+      }
+    }
+  }
+}
+
+.button--primary {
+  background-color: var(--primary-accent-color);
+  border-color: var(--primary-accent-color);
+  color: var(--white-color);
+
+  .crumina-icon,
+  i {
+    color: var(--white-color);
+    fill: var(--white-color);
+  }
+
+  &:hover {
+    background-color: var(--primary-accent-color--darken);
+    border-color: var(--primary-accent-color--darken);
+    color: var(--white-color);
+  }
+
+  &.button--bordered {
+    color: var(--primary-accent-color);
+
+    .crumina-icon,
+    i {
+      color: var(--primary-accent-color);
+      fill: var(--primary-accent-color);
+    }
+
+    &:hover {
+      color: var(--white-color);
+      background-color: var(--primary-accent-color);
+      border-color: var(--primary-accent-color);
+    }
+
+    &:active {
+      color: var(--white-color);
+      border-color: var(--primary-accent-color--darken);
+      background-color: var(--primary-accent-color--darken);
+
+      .crumina-icon,
+      i {
+        color: var(--white-color);
+        fill: var(--white-color);
+      }
+    }
+  }
+}
+
+.button--lime {
+  background-color: var(--lime-themes);
+  border-color: var(--lime-themes);
+  color: var(--white-color);
+
+  &:hover {
+    background-color: var(--lime-themes--darken);
+    border-color: var(--lime-themes--darken);
+    color: var(--white-color);
+  }
+
+  .crumina-icon,
+  i {
+    color: var(--white-color);
+    fill: var(--white-color);
+  }
+
+  &.button--bordered {
+    color: var(--lime-themes);
+
+    .crumina-icon,
+    i {
+      color: var(--lime-themes);
+      fill: var(--lime-themes);
+    }
+
+    &:hover {
+      color: var(--primary-accent-color);
+      background-color: transparent;
+      border-color: var(--primary-accent-color);
+
+      .crumina-icon,
+      i {
+        color: var(--primary-accent-color);
+        fill: var(--primary-accent-color);
+      }
+    }
+
+    &:active {
+      color: var(--white-color);
+      border-color: var(--primary-accent-color--darken);
+      background-color: var(--primary-accent-color--darken);
+
+      .crumina-icon,
+      i {
+        color: var(--white-color);
+        fill: var(--white-color);
+      }
+    }
+  }
+}
+
+.button--blue {
+  background-color: var(--blue-themes);
+  border-color: var(--blue-themes);
+  color: var(--white-color);
+
+  .crumina-icon,
+  i {
+    color: var(--white-color);
+    fill: var(--white-color);
+  }
+
+  &:hover {
+    background-color: var(--blue-themes--darken);
+    border-color: var(--blue-themes--darken);
+    color: var(--white-color);
+  }
+
+  &.button--bordered {
+    color: var(--blue-themes);
+
+    .crumina-icon,
+    i {
+      color: var(--blue-themes);
+      fill: var(--blue-themes);
+    }
+
+    &:hover {
+      color: var(--primary-accent-color);
+      background-color: transparent;
+      border-color: var(--primary-accent-color);
+
+      .crumina-icon,
+      i {
+        color: var(--primary-accent-color);
+        fill: var(--primary-accent-color);
+      }
+    }
+
+    &:active {
+      color: var(--white-color);
+      background-color: var(--primary-accent-color--darken);
+      border-color: var(--primary-accent-color--darken);
+
+      .crumina-icon,
+      i {
+        color: var(--white-color);
+        fill: var(--white-color);
+      }
+    }
+  }
+}
+
+.button--orange {
+  background-color: var(--orange-themes);
+  border-color: var(--orange-themes);
+  color: var(--white-color);
+
+  .crumina-icon,
+  i {
+    color: var(--white-color);
+    fill: var(--white-color);
+  }
+
+  &:hover {
+    background-color: var(--orange-themes--darken);
+    border-color: var(--orange-themes--darken);
+    color: var(--white-color);
+  }
+
+  &.button--bordered {
+    color: var(--orange-themes);
+
+    .crumina-icon,
+    i {
+      color: var(--orange-themes);
+      fill: var(--orange-themes);
+    }
+
+    &:hover {
+      color: var(--primary-accent-color);
+      border-color: var(--primary-accent-color);
+      background-color: transparent;
+
+      .crumina-icon,
+      i {
+        color: var(--primary-accent-color);
+        fill: var(--primary-accent-color);
+      }
+    }
+
+    &:active {
+      color: var(--white-color);
+      background-color: var(--primary-accent-color--darken);
+      border-color: var(--primary-accent-color--darken);
+
+      .crumina-icon,
+      i {
+        color: var(--white-color);
+        fill: var(--white-color);
+      }
+    }
+  }
+}
+
+.button--bordered {
+  background-color: transparent;
+  color: var(--dark-themes);
+
+  &:active {
+    color: var(--white-color);
+    background-color: var(--primary-accent-color);
+    border-color: var(--primary-accent-color);
+  }
+}
+
+.button--border-dashed {
+  background-color: transparent;
+  color: var(--body-font-color);
+  border-style: dashed;
+}
+
+
+
+
+/*------------- #Button back-to-top --------------*/
+
+
+.back-to-top {
+  position: absolute;
+  z-index: 20;
+  transition: all .3s ease;
+  top: 50%;
+  right: 20px;
+  transform: translateY(-50%);
+  cursor: pointer;
+  text-align: center;
+
+  &.hidden {
+	opacity: 0;
+  }
+
+  .crumina-icon {
+	fill: var(--input-dark-bg);
+    color: var(--input-dark-bg);
+    width: 42px;
+    height: 42px;
+  }
+
+  &:hover {
+    .crumina-icon {
+      fill: var(--primary-accent-color);
+    }
+  }
+}
+
+.universal-btn-wrapper {
+  display: inline-flex;
+  flex-wrap: wrap;
+  align-items: center;
+  margin-bottom: -20px;
+
+  & > * {
+    margin-right: 20px;
+    margin-bottom: 20px;
+
+    &:last-child {
+      margin-right: 0;
+    }
+  }
+}
+
+
+/*------------- Responsive Mode --------------*/
+
+@media (max-width: 1400px) {
+  .back-to-top {
+    top: 20px;
+    right: 20px;
+    transform: none;
+  }
+}
+
+@media (max-width: 768px) {
+
+  .back-to-top {
+    position: fixed;
+    top: auto;
+    bottom: 20px;
+    opacity: .7;
+  }
+
+  .button--xs {
+    font-size: 12px;
+    padding: .12rem .7rem;
+  }
+
+  .button--s {
+    font-size: 12px;
+    padding: .2rem 1rem;
+  }
+
+  .button--m {
+    font-size: 12px;
+    padding: .5rem 1.4rem;
+  }
+
+  .button--l {
+    font-size: 12px;
+    padding: .6rem 1.5rem;
+  }
+
+  .button--xl {
+    font-size: 14px;
+    padding: .7rem 1.6rem;
+  }
+
+  .button--xxl {
+    font-size: 14px;
+    padding: .8rem 1.8rem;
+  }
+
+  .button--icon-left {
+    .crumina-icon,
+    i {
+      margin-right: 7px;
+    }
+  }
+
+  .button--icon-right {
+    .crumina-icon,
+    i {
+      margin-left: 7px;
+    }
+  }
+
+  .button--market {
+    padding: .7rem 1.2rem;
+
+    .crumina-icon,
+    i {
+      width: 18px;
+      height: 18px;
+      margin-right: 7px;
+    }
+  }
+}

@@ -1,0 +1,61 @@
+/*------------- #STATISTICS --------------*/
+
+
+.crumina-stat-item {
+  border: 1px solid #dfe6ec;
+  padding: 30px;
+  border-radius: 5px;
+  background-color: var(--white-color);
+  transition: all .3s ease;
+  position: relative;
+
+  &:after {
+	content: '';
+	display: block;
+	width: 3px;
+	height: 100%;
+	background-color: var(--lime-themes);
+	position: absolute;
+	left: 0;
+	top: 0;
+	opacity: 0;
+	transition: all .3s ease;
+  }
+
+  &:hover {
+	box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.1), inset 4px 0 0 0 rgba(138, 213, 36, 0.004);
+
+	&:after {
+	  opacity: 1;
+	}
+  }
+}
+
+.statistic-title-count-wrap {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 20px;
+
+  .title,
+  .count {
+	font-size: 16px;
+  }
+}
+
+/*------------- Responsive Mode --------------*/
+
+@media (max-width: 768px) {
+  .crumina-stat-item {
+	padding: 0;
+  }
+
+  .statistic-title-count-wrap {
+	padding: 15px 15px 0 15px;
+  }
+
+  .statistic-title-count-wrap .title,
+  .statistic-title-count-wrap .count {
+	font-size: 12px;
+  }
+}

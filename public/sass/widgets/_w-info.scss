@@ -1,0 +1,50 @@
+/*------------- #W-INFO --------------*/
+
+
+.w-info {
+  .site-logo {
+	margin-bottom: 30px;
+	display: block;
+  }
+
+  p {
+	margin-bottom: 30px;
+	font-weight: 500;
+  }
+
+  &.widget-sidebar {
+	padding: 30px;
+	border-radius: 5px;
+	border: 1px solid var(--border-grey-color);
+  }
+}
+
+.widget-sidebar {
+  margin-bottom: 30px;
+
+  .widget-title {
+	text-transform: uppercase;
+	text-align: center;
+	margin: 0 0 30px 0;
+	padding-bottom: 30px;
+	border-bottom: 1px solid var(--border-grey-color);
+  }
+}
+
+
+/*------------- Responsive Mode --------------*/
+
+
+@media (max-width: 768px) {
+  .w-info.widget-sidebar {
+	padding: 20px;
+  }
+
+  .w-info .site-logo {
+	margin-bottom: 20px;
+  }
+
+  .w-info p {
+	margin-bottom: 20px;
+  }
+}

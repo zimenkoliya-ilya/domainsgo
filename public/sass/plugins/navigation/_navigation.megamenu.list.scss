@@ -1,0 +1,86 @@
+/* MEGAMENU LIST
+================================*/
+.navigation-list {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+
+  @media (min-width: $landscape-width) {
+	[class^=navigation-col]:last-of-type & {
+	  padding: 0;
+	}
+  }
+
+  > li {
+	width: 100%;
+	margin: 0;
+
+	&:last-child {
+	  margin-bottom: 20px;
+	}
+
+	> a {
+	  padding: 9px 10px 9px 15px;
+	  @include flex();
+	  @include flexAlignCenterVertically();
+	  position: relative;
+	  font-size: 12px;
+	  text-decoration: none;
+	  @include transition(color .3s, background .3s);
+	  font-weight: 500;
+	  color: var(--white-color);
+
+	  [class^=navigation-col]:last-of-type & {
+		border-right: none;
+	  }
+
+	  @media (min-width: $landscape-width) {
+		padding: $navigation-list-link-padding;
+		color: var(--link-color);
+		font-size: $navigation-list-link-font-size;
+	  }
+	}
+
+	&:not(.navigation-list-heading) > a:after {
+	  content: "\25E5";
+	  position: relative;
+	  font-size: 9px;
+	  margin-left: 10px;
+	  opacity: 0;
+	  @include transform(rotate(45deg));
+	  transition: all .3s ease;
+	}
+
+	&:not(.navigation-list-heading) > a:hover {
+	  color: var(--primary-accent-color);
+
+	  &:after {
+		opacity: 1;
+	  }
+	}
+  }
+}
+
+.navigation-list .navigation-list-heading {
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 16px;
+  padding: 15px 10px;
+  color: var(--white-color);
+
+  @media (min-width: $landscape-width) {
+	padding: 30px 10px 20px 30px;
+	color: var(--heading-color);
+	font-size: 24px;
+  }
+
+  > a {
+	padding: $navigation-list-heading-padding !important;;
+
+	&:hover {
+	  color: $navigation-list-heading-color !important;
+	  background-color: transparent !important;
+	}
+  }
+}

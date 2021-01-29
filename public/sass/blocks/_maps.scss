@@ -1,0 +1,44 @@
+/*------------- #MAPS --------------*/
+
+
+.crumina-map {
+  position: relative;
+  overflow: hidden;
+  max-height: 90vh;
+}
+
+.block-location-info {
+  padding: 40px;
+  position: absolute;
+  top: 50%;
+  left: 10%;
+  transform: translateY(-50%);
+  text-align: center;
+  width: 370px;
+  max-width: calc(100% - 20px);
+  z-index: 999;
+  text-align: center;
+  background-color: var(--white-color);
+  box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+
+  h5 {
+    margin-bottom: 10px;
+    text-transform: uppercase;
+  }
+
+  p {
+    margin-bottom: 0;
+  }
+}
+
+
+/*================= Responsive Mode ============*/
+
+
+@media (max-width: 768px) {
+  .block-location-info {
+    left: 50%;
+    transform: translateX(-50%);
+  }
+}

@@ -1,0 +1,58 @@
+/*------------- #CONTACTS --------------*/
+
+
+.crumina-contact-item {
+  background-color: var(--white-color);
+  border-radius: 5px;
+  border: 2px solid var(--white-color);
+  padding: 40px;
+  display: flex;
+  align-items: center;
+  margin-bottom: 30px;
+  transition: all .3s ease;
+
+  &:hover {
+	border-color: var(--primary-accent-color);
+	box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.1);
+  }
+
+  .title {
+	margin-bottom: 20px;
+  }
+
+  .subtitle {
+	margin-bottom: 30px;
+  }
+
+  a {
+	display: block;
+  }
+}
+
+.contact-item-thumb {
+  margin-right: 40px;
+}
+
+/*================= Responsive Mode ============*/
+
+@media (max-width: 991px) {
+  .crumina-contact-item {
+	padding: 20px;
+	flex-direction: column;
+	align-items: flex-start;
+
+	.contact-item-thumb {
+	  margin-right: 0;
+	  margin-bottom: 20px;
+	  max-width: 100px;
+	}
+  }
+
+  .crumina-contact-item .title {
+	margin-bottom: 10px;
+  }
+
+  .crumina-contact-item .subtitle {
+	margin-bottom: 15px;
+  }
+}

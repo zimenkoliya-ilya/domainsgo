@@ -1,0 +1,33 @@
+/*------------- #OUR VIDEO --------------*/
+
+
+.crumina-our-video {
+  position: relative;
+  border-radius: 5px;
+  overflow: hidden;
+
+  .overlay {
+    opacity: 0;
+    background: rgba(0, 0, 0, 0.5);
+  }
+
+  &:hover {
+    .overlay {
+      opacity: 1;
+    }
+  }
+}
+
+.video-control {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.video-control-youtube {
+  width: 52px;
+}
+
+
+/*------------- Responsive Mode --------------*/

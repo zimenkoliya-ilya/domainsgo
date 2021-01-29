@@ -1,0 +1,189 @@
+[14-Nov-2020 02:09:59 UTC] PHP Warning:  include(/home/phabrik/public_html/project/vendor/composer/../../app/Http/Kernel.php): failed to open stream: No such file or directory in /home/phabrik/public_html/project/vendor/composer/ClassLoader.php on line 444
+[14-Nov-2020 02:09:59 UTC] PHP Warning:  include(): Failed opening '/home/phabrik/public_html/project/vendor/composer/../../app/Http/Kernel.php' for inclusion (include_path='.:/opt/cpanel/ea-php72/root/usr/share/pear') in /home/phabrik/public_html/project/vendor/composer/ClassLoader.php on line 444
+[14-Nov-2020 02:09:59 UTC] PHP Fatal error:  Uncaught ReflectionException: Class App\Http\Kernel does not exist in /home/phabrik/public_html/project/vendor/laravel/framework/src/Illuminate/Container/Container.php:752
+Stack trace:
+#0 /home/phabrik/public_html/project/vendor/laravel/framework/src/Illuminate/Container/Container.php(752): ReflectionClass->__construct('App\\Http\\Kernel')
+#1 /home/phabrik/public_html/project/vendor/laravel/framework/src/Illuminate/Container/Container.php(631): Illuminate\Container\Container->build('App\\Http\\Kernel')
+#2 /home/phabrik/public_html/project/vendor/laravel/framework/src/Illuminate/Container/Container.php(586): Illuminate\Container\Container->resolve('App\\Http\\Kernel', Array)
+#3 /home/phabrik/public_html/project/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(732): Illuminate\Container\Container->make('App\\Http\\Kernel', Array)
+#4 /home/phabrik/public_html/project/vendor/laravel/framework/src/Illuminate/Container/Container.php(256): Illuminate\Foundation\Application->make('App\\Http\\Kernel' in /home/phabrik/public_html/project/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 752
+[14-Nov-2020 02:09:59 UTC] PHP Warning:  include(/home/phabrik/public_html/project/vendor/composer/../../app/Http/Kernel.php): failed to open stream: No such file or directory in /home/phabrik/public_html/project/vendor/composer/ClassLoader.php on line 444
+[14-Nov-2020 02:09:59 UTC] PHP Warning:  include(): Failed opening '/home/phabrik/public_html/project/vendor/composer/../../app/Http/Kernel.php' for inclusion (include_path='.:/opt/cpanel/ea-php72/root/usr/share/pear') in /home/phabrik/public_html/project/vendor/composer/ClassLoader.php on line 444
+[14-Nov-2020 02:09:59 UTC] PHP Fatal error:  Uncaught ReflectionException: Class App\Http\Kernel does not exist in /home/phabrik/public_html/project/vendor/laravel/framework/src/Illuminate/Container/Container.php:752
+Stack trace:
+#0 /home/phabrik/public_html/project/vendor/laravel/framework/src/Illuminate/Container/Container.php(752): ReflectionClass->__construct('App\\Http\\Kernel')
+#1 /home/phabrik/public_html/project/vendor/laravel/framework/src/Illuminate/Container/Container.php(631): Illuminate\Container\Container->build('App\\Http\\Kernel')
+#2 /home/phabrik/public_html/project/vendor/laravel/framework/src/Illuminate/Container/Container.php(586): Illuminate\Container\Container->resolve('App\\Http\\Kernel', Array)
+#3 /home/phabrik/public_html/project/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(732): Illuminate\Container\Container->make('App\\Http\\Kernel', Array)
+#4 /home/phabrik/public_html/project/vendor/laravel/framework/src/Illuminate/Container/Container.php(256): Illuminate\Foundation\Application->make('App\\Http\\Kernel' in /home/phabrik/public_html/project/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 752
+[14-Nov-2020 02:09:59 UTC] PHP Warning:  include(/home/phabrik/public_html/project/vendor/composer/../../app/Http/Kernel.php): failed to open stream: No such file or directory in /home/phabrik/public_html/project/vendor/composer/ClassLoader.php on line 444
+[14-Nov-2020 02:09:59 UTC] PHP Warning:  include(): Failed opening '/home/phabrik/public_html/project/vendor/composer/../../app/Http/Kernel.php' for inclusion (include_path='.:/opt/cpanel/ea-php72/root/usr/share/pear') in /home/phabrik/public_html/project/vendor/composer/ClassLoader.php on line 444
+[14-Nov-2020 02:09:59 UTC] PHP Fatal error:  Uncaught ReflectionException: Class App\Http\Kernel does not exist in /home/phabrik/public_html/project/vendor/laravel/framework/src/Illuminate/Container/Container.php:752
+Stack trace:
+#0 /home/phabrik/public_html/project/vendor/laravel/framework/src/Illuminate/Container/Container.php(752): ReflectionClass->__construct('App\\Http\\Kernel')
+#1 /home/phabrik/public_html/project/vendor/laravel/framework/src/Illuminate/Container/Container.php(631): Illuminate\Container\Container->build('App\\Http\\Kernel')
+#2 /home/phabrik/public_html/project/vendor/laravel/framework/src/Illuminate/Container/Container.php(586): Illuminate\Container\Container->resolve('App\\Http\\Kernel', Array)
+#3 /home/phabrik/public_html/project/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(732): Illuminate\Container\Container->make('App\\Http\\Kernel', Array)
+#4 /home/phabrik/public_html/project/vendor/laravel/framework/src/Illuminate/Container/Container.php(256): Illuminate\Foundation\Application->make('App\\Http\\Kernel' in /home/phabrik/public_html/project/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 752
+[14-Nov-2020 02:09:59 UTC] PHP Warning:  include(/home/phabrik/public_html/project/vendor/composer/../../app/Http/Kernel.php): failed to open stream: No such file or directory in /home/phabrik/public_html/project/vendor/composer/ClassLoader.php on line 444
+[14-Nov-2020 02:09:59 UTC] PHP Warning:  include(): Failed opening '/home/phabrik/public_html/project/vendor/composer/../../app/Http/Kernel.php' for inclusion (include_path='.:/opt/cpanel/ea-php72/root/usr/share/pear') in /home/phabrik/public_html/project/vendor/composer/ClassLoader.php on line 444
+[14-Nov-2020 02:09:59 UTC] PHP Fatal error:  Uncaught ReflectionException: Class App\Http\Kernel does not exist in /home/phabrik/public_html/project/vendor/laravel/framework/src/Illuminate/Container/Container.php:752
+Stack trace:
+#0 /home/phabrik/public_html/project/vendor/laravel/framework/src/Illuminate/Container/Container.php(752): ReflectionClass->__construct('App\\Http\\Kernel')
+#1 /home/phabrik/public_html/project/vendor/laravel/framework/src/Illuminate/Container/Container.php(631): Illuminate\Container\Container->build('App\\Http\\Kernel')
+#2 /home/phabrik/public_html/project/vendor/laravel/framework/src/Illuminate/Container/Container.php(586): Illuminate\Container\Container->resolve('App\\Http\\Kernel', Array)
+#3 /home/phabrik/public_html/project/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(732): Illuminate\Container\Container->make('App\\Http\\Kernel', Array)
+#4 /home/phabrik/public_html/project/vendor/laravel/framework/src/Illuminate/Container/Container.php(256): Illuminate\Foundation\Application->make('App\\Http\\Kernel' in /home/phabrik/public_html/project/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 752
+[14-Nov-2020 02:10:02 UTC] PHP Warning:  include(/home/phabrik/public_html/project/vendor/composer/../../app/Http/Kernel.php): failed to open stream: No such file or directory in /home/phabrik/public_html/project/vendor/composer/ClassLoader.php on line 444
+[14-Nov-2020 02:10:02 UTC] PHP Warning:  include(): Failed opening '/home/phabrik/public_html/project/vendor/composer/../../app/Http/Kernel.php' for inclusion (include_path='.:/opt/cpanel/ea-php72/root/usr/share/pear') in /home/phabrik/public_html/project/vendor/composer/ClassLoader.php on line 444
+[14-Nov-2020 02:10:02 UTC] PHP Fatal error:  Uncaught ReflectionException: Class App\Http\Kernel does not exist in /home/phabrik/public_html/project/vendor/laravel/framework/src/Illuminate/Container/Container.php:752
+Stack trace:
+#0 /home/phabrik/public_html/project/vendor/laravel/framework/src/Illuminate/Container/Container.php(752): ReflectionClass->__construct('App\\Http\\Kernel')
+#1 /home/phabrik/public_html/project/vendor/laravel/framework/src/Illuminate/Container/Container.php(631): Illuminate\Container\Container->build('App\\Http\\Kernel')
+#2 /home/phabrik/public_html/project/vendor/laravel/framework/src/Illuminate/Container/Container.php(586): Illuminate\Container\Container->resolve('App\\Http\\Kernel', Array)
+#3 /home/phabrik/public_html/project/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(732): Illuminate\Container\Container->make('App\\Http\\Kernel', Array)
+#4 /home/phabrik/public_html/project/vendor/laravel/framework/src/Illuminate/Container/Container.php(256): Illuminate\Foundation\Application->make('App\\Http\\Kernel' in /home/phabrik/public_html/project/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 752
+[14-Nov-2020 02:10:04 UTC] PHP Warning:  include(/home/phabrik/public_html/project/vendor/composer/../../app/Http/Kernel.php): failed to open stream: No such file or directory in /home/phabrik/public_html/project/vendor/composer/ClassLoader.php on line 444
+[14-Nov-2020 02:10:04 UTC] PHP Warning:  include(): Failed opening '/home/phabrik/public_html/project/vendor/composer/../../app/Http/Kernel.php' for inclusion (include_path='.:/opt/cpanel/ea-php72/root/usr/share/pear') in /home/phabrik/public_html/project/vendor/composer/ClassLoader.php on line 444
+[14-Nov-2020 02:10:04 UTC] PHP Fatal error:  Uncaught ReflectionException: Class App\Http\Kernel does not exist in /home/phabrik/public_html/project/vendor/laravel/framework/src/Illuminate/Container/Container.php:752
+Stack trace:
+#0 /home/phabrik/public_html/project/vendor/laravel/framework/src/Illuminate/Container/Container.php(752): ReflectionClass->__construct('App\\Http\\Kernel')
+#1 /home/phabrik/public_html/project/vendor/laravel/framework/src/Illuminate/Container/Container.php(631): Illuminate\Container\Container->build('App\\Http\\Kernel')
+#2 /home/phabrik/public_html/project/vendor/laravel/framework/src/Illuminate/Container/Container.php(586): Illuminate\Container\Container->resolve('App\\Http\\Kernel', Array)
+#3 /home/phabrik/public_html/project/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(732): Illuminate\Container\Container->make('App\\Http\\Kernel', Array)
+#4 /home/phabrik/public_html/project/vendor/laravel/framework/src/Illuminate/Container/Container.php(256): Illuminate\Foundation\Application->make('App\\Http\\Kernel' in /home/phabrik/public_html/project/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 752
+[14-Nov-2020 02:10:04 UTC] PHP Warning:  include(/home/phabrik/public_html/project/vendor/composer/../../app/Http/Kernel.php): failed to open stream: No such file or directory in /home/phabrik/public_html/project/vendor/composer/ClassLoader.php on line 444
+[14-Nov-2020 02:10:04 UTC] PHP Warning:  include(): Failed opening '/home/phabrik/public_html/project/vendor/composer/../../app/Http/Kernel.php' for inclusion (include_path='.:/opt/cpanel/ea-php72/root/usr/share/pear') in /home/phabrik/public_html/project/vendor/composer/ClassLoader.php on line 444
+[14-Nov-2020 02:10:04 UTC] PHP Fatal error:  Uncaught ReflectionException: Class App\Http\Kernel does not exist in /home/phabrik/public_html/project/vendor/laravel/framework/src/Illuminate/Container/Container.php:752
+Stack trace:
+#0 /home/phabrik/public_html/project/vendor/laravel/framework/src/Illuminate/Container/Container.php(752): ReflectionClass->__construct('App\\Http\\Kernel')
+#1 /home/phabrik/public_html/project/vendor/laravel/framework/src/Illuminate/Container/Container.php(631): Illuminate\Container\Container->build('App\\Http\\Kernel')
+#2 /home/phabrik/public_html/project/vendor/laravel/framework/src/Illuminate/Container/Container.php(586): Illuminate\Container\Container->resolve('App\\Http\\Kernel', Array)
+#3 /home/phabrik/public_html/project/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(732): Illuminate\Container\Container->make('App\\Http\\Kernel', Array)
+#4 /home/phabrik/public_html/project/vendor/laravel/framework/src/Illuminate/Container/Container.php(256): Illuminate\Foundation\Application->make('App\\Http\\Kernel' in /home/phabrik/public_html/project/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 752
+[14-Nov-2020 02:10:04 UTC] PHP Warning:  include(/home/phabrik/public_html/project/vendor/composer/../../app/Http/Kernel.php): failed to open stream: No such file or directory in /home/phabrik/public_html/project/vendor/composer/ClassLoader.php on line 444
+[14-Nov-2020 02:10:04 UTC] PHP Warning:  include(): Failed opening '/home/phabrik/public_html/project/vendor/composer/../../app/Http/Kernel.php' for inclusion (include_path='.:/opt/cpanel/ea-php72/root/usr/share/pear') in /home/phabrik/public_html/project/vendor/composer/ClassLoader.php on line 444
+[14-Nov-2020 02:10:04 UTC] PHP Fatal error:  Uncaught ReflectionException: Class App\Http\Kernel does not exist in /home/phabrik/public_html/project/vendor/laravel/framework/src/Illuminate/Container/Container.php:752
+Stack trace:
+#0 /home/phabrik/public_html/project/vendor/laravel/framework/src/Illuminate/Container/Container.php(752): ReflectionClass->__construct('App\\Http\\Kernel')
+#1 /home/phabrik/public_html/project/vendor/laravel/framework/src/Illuminate/Container/Container.php(631): Illuminate\Container\Container->build('App\\Http\\Kernel')
+#2 /home/phabrik/public_html/project/vendor/laravel/framework/src/Illuminate/Container/Container.php(586): Illuminate\Container\Container->resolve('App\\Http\\Kernel', Array)
+#3 /home/phabrik/public_html/project/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(732): Illuminate\Container\Container->make('App\\Http\\Kernel', Array)
+#4 /home/phabrik/public_html/project/vendor/laravel/framework/src/Illuminate/Container/Container.php(256): Illuminate\Foundation\Application->make('App\\Http\\Kernel' in /home/phabrik/public_html/project/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 752
+[14-Nov-2020 02:10:04 UTC] PHP Warning:  include(/home/phabrik/public_html/project/vendor/composer/../../app/Http/Kernel.php): failed to open stream: No such file or directory in /home/phabrik/public_html/project/vendor/composer/ClassLoader.php on line 444
+[14-Nov-2020 02:10:04 UTC] PHP Warning:  include(): Failed opening '/home/phabrik/public_html/project/vendor/composer/../../app/Http/Kernel.php' for inclusion (include_path='.:/opt/cpanel/ea-php72/root/usr/share/pear') in /home/phabrik/public_html/project/vendor/composer/ClassLoader.php on line 444
+[14-Nov-2020 02:10:04 UTC] PHP Fatal error:  Uncaught ReflectionException: Class App\Http\Kernel does not exist in /home/phabrik/public_html/project/vendor/laravel/framework/src/Illuminate/Container/Container.php:752
+Stack trace:
+#0 /home/phabrik/public_html/project/vendor/laravel/framework/src/Illuminate/Container/Container.php(752): ReflectionClass->__construct('App\\Http\\Kernel')
+#1 /home/phabrik/public_html/project/vendor/laravel/framework/src/Illuminate/Container/Container.php(631): Illuminate\Container\Container->build('App\\Http\\Kernel')
+#2 /home/phabrik/public_html/project/vendor/laravel/framework/src/Illuminate/Container/Container.php(586): Illuminate\Container\Container->resolve('App\\Http\\Kernel', Array)
+#3 /home/phabrik/public_html/project/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(732): Illuminate\Container\Container->make('App\\Http\\Kernel', Array)
+#4 /home/phabrik/public_html/project/vendor/laravel/framework/src/Illuminate/Container/Container.php(256): Illuminate\Foundation\Application->make('App\\Http\\Kernel' in /home/phabrik/public_html/project/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 752
+[14-Nov-2020 02:10:10 UTC] PHP Warning:  include(/home/phabrik/public_html/project/vendor/composer/../../app/Http/Kernel.php): failed to open stream: No such file or directory in /home/phabrik/public_html/project/vendor/composer/ClassLoader.php on line 444
+[14-Nov-2020 02:10:10 UTC] PHP Warning:  include(): Failed opening '/home/phabrik/public_html/project/vendor/composer/../../app/Http/Kernel.php' for inclusion (include_path='.:/opt/cpanel/ea-php72/root/usr/share/pear') in /home/phabrik/public_html/project/vendor/composer/ClassLoader.php on line 444
+[14-Nov-2020 02:10:10 UTC] PHP Fatal error:  Uncaught ReflectionException: Class App\Http\Kernel does not exist in /home/phabrik/public_html/project/vendor/laravel/framework/src/Illuminate/Container/Container.php:752
+Stack trace:
+#0 /home/phabrik/public_html/project/vendor/laravel/framework/src/Illuminate/Container/Container.php(752): ReflectionClass->__construct('App\\Http\\Kernel')
+#1 /home/phabrik/public_html/project/vendor/laravel/framework/src/Illuminate/Container/Container.php(631): Illuminate\Container\Container->build('App\\Http\\Kernel')
+#2 /home/phabrik/public_html/project/vendor/laravel/framework/src/Illuminate/Container/Container.php(586): Illuminate\Container\Container->resolve('App\\Http\\Kernel', Array)
+#3 /home/phabrik/public_html/project/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(732): Illuminate\Container\Container->make('App\\Http\\Kernel', Array)
+#4 /home/phabrik/public_html/project/vendor/laravel/framework/src/Illuminate/Container/Container.php(256): Illuminate\Foundation\Application->make('App\\Http\\Kernel' in /home/phabrik/public_html/project/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 752
+[14-Nov-2020 02:10:10 UTC] PHP Warning:  include(/home/phabrik/public_html/project/vendor/composer/../../app/Http/Kernel.php): failed to open stream: No such file or directory in /home/phabrik/public_html/project/vendor/composer/ClassLoader.php on line 444
+[14-Nov-2020 02:10:10 UTC] PHP Warning:  include(): Failed opening '/home/phabrik/public_html/project/vendor/composer/../../app/Http/Kernel.php' for inclusion (include_path='.:/opt/cpanel/ea-php72/root/usr/share/pear') in /home/phabrik/public_html/project/vendor/composer/ClassLoader.php on line 444
+[14-Nov-2020 02:10:10 UTC] PHP Fatal error:  Uncaught ReflectionException: Class App\Http\Kernel does not exist in /home/phabrik/public_html/project/vendor/laravel/framework/src/Illuminate/Container/Container.php:752
+Stack trace:
+#0 /home/phabrik/public_html/project/vendor/laravel/framework/src/Illuminate/Container/Container.php(752): ReflectionClass->__construct('App\\Http\\Kernel')
+#1 /home/phabrik/public_html/project/vendor/laravel/framework/src/Illuminate/Container/Container.php(631): Illuminate\Container\Container->build('App\\Http\\Kernel')
+#2 /home/phabrik/public_html/project/vendor/laravel/framework/src/Illuminate/Container/Container.php(586): Illuminate\Container\Container->resolve('App\\Http\\Kernel', Array)
+#3 /home/phabrik/public_html/project/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(732): Illuminate\Container\Container->make('App\\Http\\Kernel', Array)
+#4 /home/phabrik/public_html/project/vendor/laravel/framework/src/Illuminate/Container/Container.php(256): Illuminate\Foundation\Application->make('App\\Http\\Kernel' in /home/phabrik/public_html/project/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 752
+[14-Nov-2020 02:10:10 UTC] PHP Warning:  include(/home/phabrik/public_html/project/vendor/composer/../../app/Http/Kernel.php): failed to open stream: No such file or directory in /home/phabrik/public_html/project/vendor/composer/ClassLoader.php on line 444
+[14-Nov-2020 02:10:10 UTC] PHP Warning:  include(): Failed opening '/home/phabrik/public_html/project/vendor/composer/../../app/Http/Kernel.php' for inclusion (include_path='.:/opt/cpanel/ea-php72/root/usr/share/pear') in /home/phabrik/public_html/project/vendor/composer/ClassLoader.php on line 444
+[14-Nov-2020 02:10:10 UTC] PHP Fatal error:  Uncaught ReflectionException: Class App\Http\Kernel does not exist in /home/phabrik/public_html/project/vendor/laravel/framework/src/Illuminate/Container/Container.php:752
+Stack trace:
+#0 /home/phabrik/public_html/project/vendor/laravel/framework/src/Illuminate/Container/Container.php(752): ReflectionClass->__construct('App\\Http\\Kernel')
+#1 /home/phabrik/public_html/project/vendor/laravel/framework/src/Illuminate/Container/Container.php(631): Illuminate\Container\Container->build('App\\Http\\Kernel')
+#2 /home/phabrik/public_html/project/vendor/laravel/framework/src/Illuminate/Container/Container.php(586): Illuminate\Container\Container->resolve('App\\Http\\Kernel', Array)
+#3 /home/phabrik/public_html/project/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(732): Illuminate\Container\Container->make('App\\Http\\Kernel', Array)
+#4 /home/phabrik/public_html/project/vendor/laravel/framework/src/Illuminate/Container/Container.php(256): Illuminate\Foundation\Application->make('App\\Http\\Kernel' in /home/phabrik/public_html/project/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 752
+[14-Nov-2020 02:10:10 UTC] PHP Warning:  include(/home/phabrik/public_html/project/vendor/composer/../../app/Http/Kernel.php): failed to open stream: No such file or directory in /home/phabrik/public_html/project/vendor/composer/ClassLoader.php on line 444
+[14-Nov-2020 02:10:10 UTC] PHP Warning:  include(): Failed opening '/home/phabrik/public_html/project/vendor/composer/../../app/Http/Kernel.php' for inclusion (include_path='.:/opt/cpanel/ea-php72/root/usr/share/pear') in /home/phabrik/public_html/project/vendor/composer/ClassLoader.php on line 444
+[14-Nov-2020 02:10:10 UTC] PHP Fatal error:  Uncaught ReflectionException: Class App\Http\Kernel does not exist in /home/phabrik/public_html/project/vendor/laravel/framework/src/Illuminate/Container/Container.php:752
+Stack trace:
+#0 /home/phabrik/public_html/project/vendor/laravel/framework/src/Illuminate/Container/Container.php(752): ReflectionClass->__construct('App\\Http\\Kernel')
+#1 /home/phabrik/public_html/project/vendor/laravel/framework/src/Illuminate/Container/Container.php(631): Illuminate\Container\Container->build('App\\Http\\Kernel')
+#2 /home/phabrik/public_html/project/vendor/laravel/framework/src/Illuminate/Container/Container.php(586): Illuminate\Container\Container->resolve('App\\Http\\Kernel', Array)
+#3 /home/phabrik/public_html/project/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(732): Illuminate\Container\Container->make('App\\Http\\Kernel', Array)
+#4 /home/phabrik/public_html/project/vendor/laravel/framework/src/Illuminate/Container/Container.php(256): Illuminate\Foundation\Application->make('App\\Http\\Kernel' in /home/phabrik/public_html/project/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 752
+[17-Nov-2020 21:01:51 UTC] PHP Fatal error:  Uncaught ErrorException: Array to string conversion in /home/phabrik/public_html/project/storage/framework/views/ab9b5cb7dda53df0dffb034fb530cf83fe6fa80a.php:113
+Stack trace:
+#0 /home/phabrik/public_html/project/storage/framework/views/ab9b5cb7dda53df0dffb034fb530cf83fe6fa80a.php(113): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(8, 'Array to string...', '/home/phabrik/p...', 113, Array)
+#1 /home/phabrik/public_html/project/vendor/laravel/framework/src/Illuminate/View/Engines/PhpEngine.php(43): include('/home/phabrik/p...')
+#2 /home/phabrik/public_html/project/vendor/laravel/framework/src/Illuminate/View/Engines/CompilerEngine.php(59): Illuminate\View\Engines\PhpEngine->evaluatePath('/home/phabrik/p...', Array)
+#3 /home/phabrik/public_html/project/vendor/laravel/framework/src/Illuminate/View/View.php(137): Illuminate\View\Engines\CompilerEngine->get('/home/phabrik/p...', Array)
+#4 /home/phabrik/public_html/project/vendor/laravel/framework/src/Illuminate/View/View.php(120): Illuminate\View\Vie in /home/phabrik/public_html/project/storage/framework/views/ab9b5cb7dda53df0dffb034fb530cf83fe6fa80a.php on line 113
+[17-Nov-2020 21:07:12 UTC] PHP Fatal error:  Uncaught ErrorException: Array to string conversion in /home/phabrik/public_html/project/storage/framework/views/ab9b5cb7dda53df0dffb034fb530cf83fe6fa80a.php:5
+Stack trace:
+#0 /home/phabrik/public_html/project/storage/framework/views/ab9b5cb7dda53df0dffb034fb530cf83fe6fa80a.php(5): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(8, 'Array to string...', '/home/phabrik/p...', 5, Array)
+#1 /home/phabrik/public_html/project/vendor/laravel/framework/src/Illuminate/View/Engines/PhpEngine.php(43): include('/home/phabrik/p...')
+#2 /home/phabrik/public_html/project/vendor/laravel/framework/src/Illuminate/View/Engines/CompilerEngine.php(59): Illuminate\View\Engines\PhpEngine->evaluatePath('/home/phabrik/p...', Array)
+#3 /home/phabrik/public_html/project/vendor/laravel/framework/src/Illuminate/View/View.php(137): Illuminate\View\Engines\CompilerEngine->get('/home/phabrik/p...', Array)
+#4 /home/phabrik/public_html/project/vendor/laravel/framework/src/Illuminate/View/View.php(120): Illuminate\View\View->get in /home/phabrik/public_html/project/storage/framework/views/ab9b5cb7dda53df0dffb034fb530cf83fe6fa80a.php on line 5
+[18-Nov-2020 02:14:24 UTC] PHP Fatal error:  Uncaught ErrorException: Array to string conversion in /home/phabrik/public_html/project/app/Http/Controllers/Front/CatalogController.php:250
+Stack trace:
+#0 /home/phabrik/public_html/project/app/Http/Controllers/Front/CatalogController.php(250): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(8, 'Array to string...', '/home/phabrik/p...', 250, Array)
+#1 [internal function]: App\Http\Controllers\Front\CatalogController->product('shoes-0op1377wn...')
+#2 /home/phabrik/public_html/project/vendor/laravel/framework/src/Illuminate/Routing/Controller.php(54): call_user_func_array(Array, Array)
+#3 /home/phabrik/public_html/project/vendor/laravel/framework/src/Illuminate/Routing/ControllerDispatcher.php(45): Illuminate\Routing\Controller->callAction('product', Array)
+#4 /home/phabrik/public_html/project/vendor/laravel/framework/src/Illuminate/Routing/Route.php(212): Illuminate\Routing\ControllerDispatcher->dispatch(Object(Illuminate\Routing\Route), Object(App\Http\Controllers\Front\CatalogController), 'p in /home/phabrik/public_html/project/app/Http/Controllers/Front/CatalogController.php on line 250
+[18-Nov-2020 02:17:03 UTC] PHP Fatal error:  Uncaught ErrorException: Array to string conversion in /home/phabrik/public_html/project/app/Http/Controllers/Front/CatalogController.php:236
+Stack trace:
+#0 /home/phabrik/public_html/project/app/Http/Controllers/Front/CatalogController.php(236): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(8, 'Array to string...', '/home/phabrik/p...', 236, Array)
+#1 [internal function]: App\Http\Controllers\Front\CatalogController->product('shoes-0op1377wn...')
+#2 /home/phabrik/public_html/project/vendor/laravel/framework/src/Illuminate/Routing/Controller.php(54): call_user_func_array(Array, Array)
+#3 /home/phabrik/public_html/project/vendor/laravel/framework/src/Illuminate/Routing/ControllerDispatcher.php(45): Illuminate\Routing\Controller->callAction('product', Array)
+#4 /home/phabrik/public_html/project/vendor/laravel/framework/src/Illuminate/Routing/Route.php(212): Illuminate\Routing\ControllerDispatcher->dispatch(Object(Illuminate\Routing\Route), Object(App\Http\Controllers\Front\CatalogController), 'p in /home/phabrik/public_html/project/app/Http/Controllers/Front/CatalogController.php on line 236
+[18-Nov-2020 02:26:40 UTC] PHP Fatal error:  Uncaught ErrorException: Array to string conversion in /home/phabrik/public_html/project/app/Models/Product.php:171
+Stack trace:
+#0 /home/phabrik/public_html/project/app/Models/Product.php(171): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(8, 'Array to string...', '/home/phabrik/p...', 171, Array)
+#1 /home/phabrik/public_html/project/storage/framework/views/ab9b5cb7dda53df0dffb034fb530cf83fe6fa80a.php(134): App\Models\Product->showPrice()
+#2 /home/phabrik/public_html/project/vendor/laravel/framework/src/Illuminate/View/Engines/PhpEngine.php(43): include('/home/phabrik/p...')
+#3 /home/phabrik/public_html/project/vendor/laravel/framework/src/Illuminate/View/Engines/CompilerEngine.php(59): Illuminate\View\Engines\PhpEngine->evaluatePath('/home/phabrik/p...', Array)
+#4 /home/phabrik/public_html/project/vendor/laravel/framework/src/Illuminate/View/View.php(137): Illuminate\View\Engines\CompilerEngine->get('/home/phabrik/p...', Array)
+#5 /home/phabrik/public_html/project/vendor/laravel/framework/sr in /home/phabrik/public_html/project/app/Models/Product.php on line 171
+[18-Nov-2020 02:45:07 UTC] PHP Fatal error:  Uncaught ErrorException: Array to string conversion in /home/phabrik/public_html/project/storage/framework/views/ab9b5cb7dda53df0dffb034fb530cf83fe6fa80a.php:5
+Stack trace:
+#0 /home/phabrik/public_html/project/storage/framework/views/ab9b5cb7dda53df0dffb034fb530cf83fe6fa80a.php(5): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(8, 'Array to string...', '/home/phabrik/p...', 5, Array)
+#1 /home/phabrik/public_html/project/vendor/laravel/framework/src/Illuminate/View/Engines/PhpEngine.php(43): include('/home/phabrik/p...')
+#2 /home/phabrik/public_html/project/vendor/laravel/framework/src/Illuminate/View/Engines/CompilerEngine.php(59): Illuminate\View\Engines\PhpEngine->evaluatePath('/home/phabrik/p...', Array)
+#3 /home/phabrik/public_html/project/vendor/laravel/framework/src/Illuminate/View/View.php(137): Illuminate\View\Engines\CompilerEngine->get('/home/phabrik/p...', Array)
+#4 /home/phabrik/public_html/project/vendor/laravel/framework/src/Illuminate/View/View.php(120): Illuminate\View\View->get in /home/phabrik/public_html/project/storage/framework/views/ab9b5cb7dda53df0dffb034fb530cf83fe6fa80a.php on line 5
+[19-Nov-2020 20:01:23 UTC] PHP Fatal error:  Allowed memory size of 33554432 bytes exhausted (tried to allocate 8192 bytes) in /home/phabrik/public_html/project/app/Http/Controllers/Admin/ProductController.php on line 602
+[19-Nov-2020 20:03:00 UTC] PHP Fatal error:  Allowed memory size of 33554432 bytes exhausted (tried to allocate 8192 bytes) in /home/phabrik/public_html/project/app/Http/Controllers/Admin/ProductController.php on line 602
+[19-Nov-2020 20:15:32 UTC] PHP Fatal error:  Allowed memory size of 33554432 bytes exhausted (tried to allocate 8192 bytes) in /home/phabrik/public_html/project/app/Http/Controllers/Admin/ProductController.php on line 604
+[19-Nov-2020 20:27:37 UTC] PHP Fatal error:  Allowed memory size of 33554432 bytes exhausted (tried to allocate 8192 bytes) in /home/phabrik/public_html/project/app/Http/Controllers/Admin/ProductController.php on line 604
+[19-Nov-2020 20:34:03 UTC] PHP Fatal error:  Allowed memory size of 33554432 bytes exhausted (tried to allocate 8192 bytes) in /home/phabrik/public_html/project/app/Http/Controllers/Admin/ProductController.php on line 604
+[19-Nov-2020 20:52:18 UTC] PHP Fatal error:  Allowed memory size of 33554432 bytes exhausted (tried to allocate 65536 bytes) in /home/phabrik/public_html/project/vendor/laravel/framework/src/Illuminate/Http/JsonResponse.php on line 12
+[19-Nov-2020 20:57:42 UTC] PHP Fatal error:  Allowed memory size of 33554432 bytes exhausted (tried to allocate 8192 bytes) in /home/phabrik/public_html/project/app/Http/Controllers/Admin/ProductController.php on line 603
+[19-Nov-2020 21:04:44 UTC] PHP Fatal error:  Allowed memory size of 33554432 bytes exhausted (tried to allocate 8192 bytes) in /home/phabrik/public_html/project/app/Http/Controllers/Admin/ProductController.php on line 603
+[19-Nov-2020 21:11:46 UTC] PHP Fatal error:  Allowed memory size of 33554432 bytes exhausted (tried to allocate 8192 bytes) in /home/phabrik/public_html/project/app/Http/Controllers/Admin/ProductController.php on line 603
+[19-Nov-2020 21:28:55 UTC] PHP Fatal error:  Allowed memory size of 33554432 bytes exhausted (tried to allocate 4096 bytes) in /home/phabrik/public_html/project/app/Http/Controllers/Admin/ProductController.php on line 600
+[19-Nov-2020 22:15:42 UTC] PHP Fatal error:  Allowed memory size of 33554432 bytes exhausted (tried to allocate 4096 bytes) in /home/phabrik/public_html/project/app/Http/Controllers/Admin/ProductController.php on line 602
+[26-Nov-2020 19:34:03 UTC] PHP Fatal error:  Uncaught ErrorException: Object of class Illuminate\Database\Eloquent\Relations\HasMany could not be converted to string in /home/phabrik/public_html/project/app/Http/Controllers/Vendor/ProductController.php:397
+Stack trace:
+#0 /home/phabrik/public_html/project/app/Http/Controllers/Vendor/ProductController.php(397): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(4096, 'Object of class...', '/home/phabrik/p...', 397, Array)
+#1 [internal function]: App\Http\Controllers\Vendor\ProductController->store(Object(Illuminate\Http\Request))
+#2 /home/phabrik/public_html/project/vendor/laravel/framework/src/Illuminate/Routing/Controller.php(54): call_user_func_array(Array, Array)
+#3 /home/phabrik/public_html/project/vendor/laravel/framework/src/Illuminate/Routing/ControllerDispatcher.php(45): Illuminate\Routing\Controller->callAction('store', Array)
+#4 /home/phabrik/public_html/project/vendor/laravel/framework/src/Illuminate/Routing/Route.php(212): Illuminate\Routing\ControllerDispatcher->dispatch(Object(I in /home/phabrik/public_html/project/app/Http/Controllers/Vendor/ProductController.php on line 397
+[23-Jan-2021 15:26:07 UTC] PHP Fatal error:  Cannot use isset() on the result of an expression (you can use "null !== expression" instead) in /home/domains/app/Http/Controllers/SearchController.php on line 115
+[25-Jan-2021 18:26:19 UTC] PHP Fatal error:  Cannot use isset() on the result of an expression (you can use "null !== expression" instead) in /home/domains/app/Http/Controllers/HomeController.php on line 26
+[29-Jan-2021 19:28:44 UTC] PHP Fatal error:  Allowed memory size of 1610612736 bytes exhausted (tried to allocate 4096 bytes) in phar:///opt/cpanel/composer/bin/composer/src/Composer/DependencyResolver/RuleWatchGraph.php on line 52
+[29-Jan-2021 20:06:45 UTC] PHP Fatal error:  Allowed memory size of 1610612736 bytes exhausted (tried to allocate 4096 bytes) in phar:///opt/cpanel/composer/bin/composer/src/Composer/DependencyResolver/Solver.php on line 223
+[29-Jan-2021 20:08:46 UTC] PHP Fatal error:  Allowed memory size of 1610612736 bytes exhausted (tried to allocate 4096 bytes) in phar:///opt/cpanel/composer/bin/composer/src/Composer/DependencyResolver/RuleWatchGraph.php on line 52
+[29-Jan-2021 20:39:54 UTC] PHP Fatal error:  Allowed memory size of 1610612736 bytes exhausted (tried to allocate 4096 bytes) in phar:///opt/cpanel/composer/bin/composer/src/Composer/DependencyResolver/Solver.php on line 223
+[29-Jan-2021 20:44:33 UTC] PHP Fatal error:  Allowed memory size of 1610612736 bytes exhausted (tried to allocate 4096 bytes) in phar:///opt/cpanel/composer/bin/composer/src/Composer/DependencyResolver/Solver.php on line 223
+[29-Jan-2021 20:52:21 UTC] PHP Fatal error:  Allowed memory size of 1610612736 bytes exhausted (tried to allocate 4096 bytes) in phar:///opt/cpanel/composer/bin/composer/src/Composer/DependencyResolver/RuleWatchGraph.php on line 52
+[29-Jan-2021 20:55:08 UTC] PHP Fatal error:  Allowed memory size of 1610612736 bytes exhausted (tried to allocate 4096 bytes) in phar:///opt/cpanel/composer/bin/composer/src/Composer/DependencyResolver/Solver.php on line 223
+[29-Jan-2021 20:56:39 UTC] PHP Fatal error:  Allowed memory size of 1610612736 bytes exhausted (tried to allocate 4096 bytes) in phar:///opt/cpanel/composer/bin/composer/src/Composer/DependencyResolver/RuleWatchGraph.php on line 52
+[29-Jan-2021 21:08:21 UTC] PHP Fatal error:  Allowed memory size of 1610612736 bytes exhausted (tried to allocate 4096 bytes) in phar:///opt/cpanel/composer/bin/composer/src/Composer/DependencyResolver/Solver.php on line 223

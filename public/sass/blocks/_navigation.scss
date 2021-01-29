@@ -1,0 +1,45 @@
+/*------------- #NAVIGATION --------------*/
+
+.page-navigation {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 60px 0;
+}
+
+.btn--prev,
+.btn--next {
+  font-size: 14px;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: var(--border-grey-color);
+  fill: var(--border-grey-color);
+  display: flex;
+  align-items: center;
+
+  .crumina-icon {
+    width: 22px;
+    height: 35px;
+    fill: inherit;
+  }
+
+  &:hover {
+    color: var(--lime-themes);
+    fill: var(--lime-themes);
+  }
+}
+
+.btn--prev {
+  margin-right: 30px;
+
+  .crumina-icon {
+    margin-left: 20px;
+  }
+}
+
+.btn--next {
+  .crumina-icon {
+    margin-right: 20px;
+  }
+}

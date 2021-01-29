@@ -1,0 +1,527 @@
+/*------------- #ACCORDIONS --------------*/
+
+
+.crumina-accordion {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.accordion-panel {
+  position: relative;
+  background-color: var(--white-color);
+  border-radius: 50px;
+  margin-bottom: 10px;
+}
+
+.card-header {
+  .icons {
+    line-height: 1;
+    transition: all .3s ease;
+    opacity: 1;
+    position: relative;
+
+    .crumina-icon {
+      height: 20px;
+      width: 20px;
+
+      &.icon-minus {
+        height: 2px;
+      }
+    }
+
+    .active {
+      position: absolute;
+      left: 0;
+      top: 10px;
+      opacity: 0;
+      transition: all .3s ease;
+    }
+  }
+}
+
+.card.active {
+  .icons {
+    svg {
+      opacity: 0;
+    }
+
+    .active {
+      opacity: 1;
+    }
+  }
+}
+
+.btn-link {
+  text-align: left;
+
+  &:hover,
+  &:focus {
+    text-decoration: none;
+  }
+}
+
+
+/*------------- #ACCORDION Style 1 --------------*/
+
+.accordion--style1 {
+  .btn-link {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    width: 100%;
+    font-weight: 700;
+    font-size: 18px;
+    color: var(--dark-themes);
+    padding: 25px 30px;
+  }
+
+  .card-header {
+    padding: 0;
+    background-color: transparent;
+    border-bottom: none;
+  }
+
+  .card {
+    background-color: transparent;
+    border: 2px solid var(--white-color);
+    border-radius: 5px;
+    margin-bottom: 10px;
+    transition: all .3s ease;
+
+    &.active,
+    &:hover  {
+      background-color: var(--white-color);
+      box-shadow: 0 8px 20px 0 rgba(0, 0, 0, 0.14);
+    }
+  }
+
+  .card-body {
+    padding: 0 30px 30px;
+  }
+
+  & > .card:not(:first-of-type):not(:last-of-type) {
+    border-bottom: 2px solid var(--white-color);
+    border-radius: 5px;
+  }
+
+  & > .card:first-of-type {
+    border-bottom: 2px solid var(--white-color);
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+  }
+
+  & > .card:last-of-type {
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+  }
+}
+
+/*------------- #ACCORDION Style 2 --------------*/
+
+.accordion--style2 {
+  .btn-link {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-end;
+    flex-direction: row-reverse;
+    width: 100%;
+    font-weight: 700;
+    font-size: 18px;
+    color: var(--dark-themes);
+    padding: 25px 0;
+
+    .icons {
+      margin-right: 30px;
+    }
+  }
+
+  .card-body {
+    padding: 0 50px 30px;
+  }
+
+  .card-header {
+    padding: 0;
+    background-color: transparent;
+    border-bottom: none;
+  }
+
+  .card {
+    background-color: transparent;
+    border-top: 1px solid var(--border-grey-color);
+    border-bottom: 1px solid var(--border-grey-color);
+    border-left: none;
+    border-right: none;
+    transition: all .3s ease;
+    border-radius: 0;
+
+    &.active,
+    &:hover {
+      .btn-link {
+        color: var(--primary-accent-color);
+
+        .crumina-icon {
+          fill: var(--primary-accent-color);
+        }
+      }
+    }
+  }
+}
+
+
+/*------------- #ACCORDION Style 3 --------------*/
+
+.accordion--style3 {
+  .btn-link {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    width: 100%;
+    font-weight: 700;
+    font-size: 18px;
+    color: var(--dark-themes);
+    padding: 25px 30px;
+  }
+
+  .card-header {
+    padding: 0;
+    background-color: var(--white-color);
+    border-bottom: none;
+  }
+
+  .card {
+    background-color: transparent;
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    transition: all .3s ease;
+
+    &.active,
+    &:hover {
+      background-color: var(--white-color);
+      box-shadow: 0 8px 20px 0 rgba(0, 0, 0, 0.14);
+
+      .icons svg {
+        fill: var(--yellow-themes);
+      }
+    }
+  }
+
+  .card-body {
+    padding: 0 30px 30px;
+  }
+
+  & > .card:not(:first-of-type):not(:last-of-type) {
+    border-radius: 5px;
+  }
+
+  & > .card:first-of-type {
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+  }
+
+  & > .card:last-of-type {
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+  }
+}
+
+/*------------- #ACCORDION Style 4 --------------*/
+
+.accordion--style4 {
+  .btn-link {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    width: 100%;
+    font-weight: 700;
+    font-size: 18px;
+    color: var(--dark-themes);
+    padding: 25px 30px;
+  }
+
+  .card-header {
+    padding: 0;
+    background-color: var(--white-color);
+    border-bottom: none;
+  }
+
+  .card {
+    background-color: transparent;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    transition: all .3s ease;
+    border: 1px solid #dfe6ec;
+
+    &.active,
+    &:hover {
+      border: 1px solid var(--orange-themes);
+
+      .icons svg {
+        fill: var(--orange-themes);
+      }
+    }
+  }
+
+  .card-body {
+    padding: 0 30px 30px;
+    background-color: var(--white-color);
+  }
+
+  & > .card:not(:first-of-type):not(:last-of-type) {
+    border-radius: 5px;
+    border-bottom: 1px solid #dfe6ec;
+
+    &.active,
+    &:hover {
+      border: 1px solid var(--orange-themes);
+    }
+  }
+
+  & > .card:first-of-type {
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border-bottom: 1px solid #dfe6ec;
+
+    &.active,
+    &:hover {
+      border: 1px solid var(--orange-themes);
+    }
+  }
+
+  & > .card:last-of-type {
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+  }
+}
+
+
+/*------------- #ACCORDION Style 5 --------------*/
+
+.accordion--style5 {
+  .btn-link {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    width: 100%;
+    font-weight: 700;
+    font-size: 18px;
+    color: var(--dark-themes);
+    padding: 25px 30px;
+  }
+
+  .card-header {
+    padding: 0;
+    background-color: var(--white-color);
+    border-bottom: none;
+  }
+
+  .card {
+    background-color: transparent;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    transition: all .3s ease;
+    border: 1px solid #dfe6ec;
+
+    &.active,
+    &:hover {
+      box-shadow: 0 8px 20px 0 rgba(0, 0, 0, 0.14);
+
+      .icons svg {
+        fill: var(--blue-themes);
+      }
+    }
+  }
+
+  .card-body {
+    padding: 0 30px 30px;
+    background-color: var(--white-color);
+  }
+
+  & > .card:not(:first-of-type):not(:last-of-type) {
+    border-radius: 5px;
+    border-bottom: 1px solid #dfe6ec;
+  }
+
+  & > .card:first-of-type {
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border-bottom: 1px solid #dfe6ec;
+  }
+
+  & > .card:last-of-type {
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+  }
+}
+
+
+/*------------- #ACCORDION Style 6 --------------*/
+
+.accordion--style6 {
+  .btn-link {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    width: 100%;
+    font-weight: 700;
+    color: var(--dark-themes);
+    padding: 20px 30px;
+    background-color: var(--grey-themes);
+    border-radius: 5px;
+
+    .crumina-icon {
+      fill: var(--dark-themes);
+      width: 8px;
+      height: 6px;
+    }
+
+    .title {
+      margin-left: 20px;
+    }
+  }
+
+  .collapse,
+  .collapsing {
+    border: 1px solid var(--border-grey-color);
+    border-top: 0;
+    border-radius: 0 0 5px 5px;
+  }
+
+  .card-header {
+    padding: 0;
+    border-bottom: none;
+  }
+
+  .card {
+    background-color: transparent;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    transition: all .3s ease;
+    border: none;
+
+    &.active {
+      .crumina-icon {
+        transform: rotate(180deg);
+      }
+    }
+  }
+
+  .card-body {
+    padding: 0;
+  }
+}
+
+
+/*------------- #ACCORDION Style 7 --------------*/
+
+.accordion--style7 {
+  .btn-link {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    font-weight: 700;
+    font-size: 18px;
+    color: var(--dark-themes);
+    padding: 25px 0;
+
+    .crumina-icon {
+      margin-right: 15px;
+      fill: var(--border-grey-color);
+    }
+  }
+
+  .card-body {
+    padding: 0 0 30px 30px;
+  }
+
+  .card-header {
+    padding: 0;
+    background-color: transparent;
+    border-bottom: none;
+  }
+
+  .card {
+    background-color: transparent;
+    border-top: 2px solid var(--border-grey-color);
+    border-bottom: 2px solid var(--border-grey-color);
+    border-left: none;
+    border-right: none;
+    transition: all .3s ease;
+    border-radius: 0;
+
+    &:first-of-type {
+      border-top: 0;
+    }
+
+    &.active,
+    &:hover {
+      .btn-link {
+        color: var(--primary-accent-color);
+
+        .crumina-icon {
+          fill: var(--primary-accent-color);
+        }
+      }
+    }
+  }
+}
+
+
+/*------------- Responsive Mode --------------*/
+
+@media (max-width: 768px) {
+  .accordion--style1 .btn-link {
+    font-size: 16px;
+    padding: 15px 20px;
+  }
+
+  .accordion--style1 .card-body {
+    padding: 0 20px 20px;
+    font-size: 14px;
+  }
+
+  .accordion--style2 .btn-link {
+    font-size: 16px;
+    padding: 15px 0;
+  }
+
+  .accordion--style2 .card-body {
+    font-size: 14px;
+  }
+
+  .accordion--style4 .btn-link {
+    font-size: 16px;
+    padding: 15px 20px;
+  }
+
+  .accordion--style4 .card-body {
+    padding: 0 20px 20px;
+    font-size: 14px;
+  }
+
+  .accordion--style3 .btn-link {
+    font-size: 16px;
+    padding: 15px 20px;
+  }
+
+  .accordion--style3 .card-body {
+    padding: 0 20px 20px;
+    font-size: 14px;
+  }
+
+  .accordion--style5 .btn-link {
+    font-size: 16px;
+    padding: 15px 20px;
+  }
+
+  .accordion--style5 .card-body {
+    padding: 0 20px 20px;
+    font-size: 14px;
+  }
+
+  .accordion--style7 .btn-link {
+    font-size: 14px;
+    padding: 15px 0;
+  }
+}

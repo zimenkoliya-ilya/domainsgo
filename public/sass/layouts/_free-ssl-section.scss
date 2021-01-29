@@ -1,0 +1,25 @@
+/*------------- #FREE-SSL-SECTION --------------*/
+
+
+.free-ssl-section {
+  position: relative;
+  padding: 80px 0;
+  text-align: center;
+  margin-top: 65px;
+
+  .free-ssl-image {
+	position: absolute;
+	left: 50%;
+	top: -65px;
+	transform: translateX(-50%);
+	height: 130px;
+  }
+}
+
+/*------------- Responsive Mode --------------*/
+
+@media (max-width: 768px) {
+  .free-ssl-section {
+	padding: 80px 0 30px;
+  }
+}

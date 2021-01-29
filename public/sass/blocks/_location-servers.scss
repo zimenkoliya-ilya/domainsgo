@@ -1,0 +1,73 @@
+/*------------- #LOCATION-SERVERS --------------*/
+
+
+.location-servers--style-bordered {
+  padding: 60px;
+  border: 1px solid #dfe6ec;
+  border-radius: 5px;
+}
+
+.location-servers-map {
+  position: relative;
+}
+
+.location-server-item {
+  position: absolute;
+  width: 28px;
+  height: 28px;
+  border: 4px solid var(--white-color);
+  border-radius: 100%;
+  transition: all .3s ease;
+
+  &:hover {
+	border-width: 3px;
+  }
+}
+
+.location-server-item-border-dark {
+  border: 4px solid #2b2e30;
+}
+
+.locations-servers-list {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.locations-server-item {
+  font-weight: 500;
+  color: #80868d;
+  margin: 15px 30px;
+
+  .count {
+    font-weight: 700;
+    color: var(--white-color);
+  }
+}
+
+
+/*------------- Responsive Mode --------------*/
+
+@media (max-width: 768px) {
+  .location-server-item {
+    width: 18px;
+    height: 18px;
+    border-width: 2px;
+
+    &:hover {
+      border-width: 1px;
+    }
+  }
+
+  .location-servers--style-bordered {
+    padding: 20px;
+  }
+}
+
+@media (max-width: 560px) {
+  .location-server-item {
+    width: 10px;
+    height: 10px;
+  }
+}

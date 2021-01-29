@@ -1,0 +1,26 @@
+
+/* NAVIGATION BUTTON
+================================*/
+.navigation-btn{
+	width: 100%;
+	padding: $navigation-button-padding;
+	text-align: center;
+	display: block;
+	line-height: 1.4;
+	font-size: $navigation-button-font-size;
+	white-space: nowrap;
+	color: #fff;
+	cursor: pointer;
+	border-radius: $navigation-button-border-radius;
+	@include transition(opacity .3s, background .3s);
+	
+	&:hover,
+	&:focus{
+		color: $navigation-button-font-color-hover;
+		text-decoration: none;
+	}
+	
+	@media (min-width: $landscape-width){
+		width: auto;
+	}
+}

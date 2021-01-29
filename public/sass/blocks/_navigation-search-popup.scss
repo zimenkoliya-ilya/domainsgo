@@ -1,0 +1,84 @@
+/*------------- #NAVIGATION-SEARCH-POPUP --------------*/
+
+.navigation-search-popup {
+  text-align: center;
+}
+
+.popup-search {
+
+  &.modal {
+    z-index: 999999;
+  }
+
+  .modal-dialog {
+    max-width: unset;
+    width: 100%;
+    margin: 0;
+  }
+
+  .modal-content {
+    background-color: #161718;
+    border-radius: 0;
+    border: none;
+
+    &:after {
+      content: '';
+      display: block;
+      width: 100%;
+      height: 4px;
+      background-repeat: repeat-x;
+      -webkit-background-size: contain;
+      background-size: contain;
+      position: absolute;
+      bottom: 0;
+      left: 0;
+    }
+  }
+
+  .modal-close-btn-wrapper {
+    float: right;
+    position: relative;
+    cursor: pointer;
+
+    &:hover {
+      .crumina-icon {
+        fill: var(--primary-accent-color);
+      }
+    }
+
+    .close {
+      margin: 0;
+      position: relative;
+      z-index: 99;
+    }
+
+    .crumina-icon {
+      width: 18px;
+      height: 18px;
+      fill: #424648;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      z-index: 1;
+    }
+  }
+
+  .modal-header {
+    border-bottom: 0;
+    padding-top: 50px;
+  }
+
+  .modal-body {
+    padding-top: 50px;
+    padding-bottom: 120px;
+  }
+}
+
+.search-popup-form {
+  margin-top: 60px;
+}
+
+.popup-search .modal-content::after {
+  background-image: url("../img/theme-content/backgrounds/header-footer-gradient-bg.png");
+}

@@ -1,0 +1,45 @@
+/*------------- #TEAMMEMBERS --------------*/
+
+
+.crumina-teammember-item {
+  text-align: center;
+
+  .socials {
+	margin: 0;
+  }
+}
+
+.teammembers-thumb {
+  width: 270px;
+  height: 270px;
+  border-radius: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto 30px;
+}
+
+.teammembers-item-name {
+  display: block;
+  margin-bottom: 20px;
+}
+
+.teammembers-item-prof {
+  font-weight: 700;
+  color: var(--light-grey);
+  margin-bottom: 20px;
+}
+
+.teammembers-description {
+  margin-bottom: 20px;
+}
+
+
+/*------------- Responsive Mode --------------*/
+
+@media (max-width: 1200px) {
+  .teammembers-thumb {
+    width: 170px;
+    height: 170px;
+  }
+}

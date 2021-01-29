@@ -1,0 +1,62 @@
+/*------------- #FAQS BLOCK --------------*/
+
+
+.crumina-faqs-block {
+  border: 2px solid #dfe6ec;
+  border-radius: 5px;
+  padding: 40px;
+  margin-bottom: 30px;
+  transition: all .3s ease;
+
+  &:hover {
+	box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.1);
+	border-color: var(--primary-accent-color);
+  }
+}
+
+.crumina-faqs-block--without-border {
+  border: none;
+  margin-bottom: 0;
+  background-color: var(--white-color);
+  padding: 100px;
+
+  a {
+	color: var(--link-color);
+  }
+}
+
+.crumina-faqs-title-with-border {
+  padding-bottom: 20px;
+  margin-bottom: 30px;
+  border-bottom: 2px solid #dfe6ec;
+}
+
+.crumina-faqs-title {
+  display: block;
+}
+
+.row-masonry {
+  display: block;
+
+  & > * {
+	flex: unset;
+	max-width: unset;
+	display: inline-block;
+  }
+}
+
+.row-masonry--col-2 {
+  column-count: 2;
+}
+
+/*------------- Responsive Mode --------------*/
+
+@media (max-width: 768px) {
+  .crumina-faqs-block {
+	padding: 20px;
+  }
+
+  .crumina-faqs-block--without-border {
+	padding: 30px;
+  }
+}

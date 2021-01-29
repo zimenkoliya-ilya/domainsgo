@@ -1,0 +1,94 @@
+@import "./vendors/Bootstrap/vendor/rfs";
+
+
+/*------------- #MAIN STYLES --------------*/
+
+@import "table-of-content.scss";
+
+/*------------- #PLUGINS --------------*/
+
+@import "plugins/select2";
+@import "plugins/swiper";
+@import "plugins/leaflet";
+@import "plugins/magnific-popup";
+@import "plugins/TimeCircles";
+
+/*------------- #THEME STYLES --------------*/
+
+@import "theme-styles/custom-variables";
+@import "theme-styles/root";
+
+@import "theme-styles/global";
+@import "theme-styles/typography";
+@import "theme-styles/mixins";
+@import "theme-styles/preloader";
+@import "theme-styles/forms";
+@import "theme-styles/breadcrumbs";
+@import "theme-styles/stunning-header";
+@import "theme-styles/blogs";
+
+
+
+/*------------- #BLOCKS --------------*/
+
+@import "blocks/heading";
+@import "blocks/lists";
+@import "blocks/buttons";
+@import "blocks/navigation-search-popup";
+@import "blocks/checkboxes";
+@import "blocks/radio-btn";
+@import "blocks/sliders";
+@import "blocks/testimonials";
+@import "blocks/socials";
+@import "blocks/user-menu-popup";
+@import "blocks/tables";
+@import "blocks/switcher";
+@import "blocks/pricing-tables";
+@import "blocks/skills";
+@import "blocks/tabs";
+@import "blocks/info-boxes";
+@import "blocks/maps";
+@import "blocks/accordion";
+@import "blocks/our-video";
+@import "blocks/theme-item";
+@import "blocks/articles-list";
+@import "blocks/faqs-block";
+@import "blocks/features";
+@import "blocks/highest-rated";
+@import "blocks/domain-filter-panel";
+@import "blocks/teammembers";
+@import "blocks/dropzone";
+@import "blocks/contacts";
+@import "blocks/domain-list";
+@import "blocks/clients";
+@import "blocks/knowledge-base";
+@import "blocks/category-list";
+@import "blocks/quotes";
+@import "blocks/comments";
+@import "blocks/navigation";
+@import "blocks/subscribe-popup";
+@import "blocks/statistics";
+@import "blocks/location-servers";
+
+
+/*------------- #WIDGETS --------------*/
+
+@import "widgets/widget_links";
+@import "widgets/w-info";
+@import "widgets/w-tags";
+@import "widgets/w-search";
+@import "widgets/w-latest-posts";
+@import "widgets/w-socials";
+@import "widgets/w-newsletter";
+@import "widgets/w-about";
+@import "widgets/w-popular-tags";
+
+/*------------- #LAYOUTS --------------*/
+
+@import "layouts/header";
+@import "layouts/footer";
+@import "layouts/free-ssl-section";
+@import "layouts/status-pages";
+
+
+@import "theme-styles/helper";

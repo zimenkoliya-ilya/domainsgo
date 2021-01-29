@@ -1,0 +1,19 @@
+/*------------- #W-LATEST-POSTS --------------*/
+
+
+.w-latest-posts {
+  &.widget-sidebar {
+	padding: 30px;
+	border-radius: 5px;
+	border: 1px solid var(--border-grey-color);
+  }
+}
+
+.latest-posts-item {
+  margin-bottom: 30px;
+
+  .post-date {
+	font-size: 14px;
+	margin-bottom: 15px;
+  }
+}

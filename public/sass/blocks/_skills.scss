@@ -1,0 +1,126 @@
+/*------------- #SKILLS --------------*/
+
+
+.skills-item-meter-active {
+  position: absolute;
+  display: inline-block;
+  border-radius: 5px 0 0 5px;
+  bottom: 0;
+  left: 0;
+  transition: all .2s ease;
+  color: var(--dark-themes);
+  height: 100%;
+
+  &.skills-animate {
+    animation: skills-animated 1.2s ease-out;
+  }
+
+  &.skills-animate-opacity {
+    animation: skills-animated-opacity .2s ease-out;
+  }
+}
+
+.skills-item--style-circle {
+
+  .skills-item-meter {
+    height: 6px;
+  }
+
+  .skills-item-meter-active {
+
+    &:after {
+      content: '';
+      display: block;
+      width: 18px;
+      height: 18px;
+      border: 4px solid transparent;
+      border-radius: 100%;
+      position: absolute;
+      right: -1px;
+      top: 50%;
+      transform: translate(0, -50%);
+      background-color: var(--grey-themes);
+    }
+
+    &.bg-accent-primary {
+
+      &:after {
+        border-color: var(--primary-accent-color);
+      }
+    }
+
+    &.bg-red-themes {
+      &:after {
+        border-color: var(--red-themes);
+      }
+    }
+
+    &.bg-orange-themes {
+      &:after {
+        border-color: var(--orange-themes);
+      }
+    }
+
+    &.bg-yellow-themes {
+      &:after {
+        border-color: var(--yellow-themes);
+      }
+    }
+
+    &.bg-blue-themes {
+      &:after {
+        border-color: var(--blue-themes);
+      }
+    }
+
+    &.bg-lime-themes {
+      &:after {
+        border-color: var(--lime-themes);
+      }
+    }
+  }
+}
+
+.skills-item-meter {
+  padding: 0 5px;
+  width: 100%;
+  border-radius: 10px;
+  background-color: var(--grey-themes);
+  position: relative;
+  height: 10px;
+}
+
+.skills-item-title {
+  font-size: 14px;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: var(--dark-themes);
+}
+
+.skills-item-count {
+  font-weight: 700;
+  font-size: 14px;
+  color: var(--dark-themes);
+}
+
+.skills-item-info {
+  margin-bottom: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+@keyframes skills-animated {
+  0% {
+    width: 0;
+  }
+}
+
+@keyframes skills-animated-opacity {
+  100% {
+    opacity: 1;
+  }
+}
+
+
+/*================= Responsive Mode ============*/
